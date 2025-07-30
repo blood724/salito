@@ -166,3 +166,11 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 03:21:47.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Not Today, Thank You]
 [30Jul2025 03:26:54.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Not Today, Thank You]
 [30Jul2025 03:29:56.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Alex's Mobs]
+[30Jul2025 03:36:43.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Suit Up]
+[30Jul2025 03:37:07.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Suit Up]
+[30Jul2025 03:37:13.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Isn't It Iron Pick]
+[30Jul2025 03:41:33.193] [Worker-Main-20/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[30Jul2025 03:41:33.419] [Worker-Main-20/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[30Jul2025 03:41:33.575] [Worker-Main-20/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[30Jul2025 03:41:35.546] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4023ms or 80 ticks behind
+[30Jul2025 03:44:00.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Sweet Dreams]
