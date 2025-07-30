@@ -178,3 +178,9 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [30Jul2025 03:49:05.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd fell from a high place
 [30Jul2025 03:56:59.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Acquire Hardware]
 [30Jul2025 04:03:13.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> ---
+[30Jul2025 04:04:38.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> 96 -146
+[30Jul2025 04:07:49.627] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=562, y=73, z=-290} BlockPos{x=562, y=71, z=-291}
+[30Jul2025 04:12:46.489] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: titiiiixd lost connection: Timed out
+[30Jul2025 04:12:46.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd left the game
+[30Jul2025 04:14:29.982] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BloodSoss lost connection: Disconnected
+[30Jul2025 04:14:29.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss left the game

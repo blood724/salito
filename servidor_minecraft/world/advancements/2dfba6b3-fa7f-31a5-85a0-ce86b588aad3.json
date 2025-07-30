@@ -265,7 +265,8 @@
     "criteria": {
       "minecraft:frozen_river": "2025-07-30 03:15:32 +0000",
       "minecraft:river": "2025-07-30 03:29:35 +0000",
-      "minecraft:snowy_taiga": "2025-07-28 00:18:16 +0000"
+      "minecraft:snowy_taiga": "2025-07-28 00:18:16 +0000",
+      "minecraft:dripstone_caves": "2025-07-30 04:10:46 +0000"
     },
     "done": false
   },
@@ -740,6 +741,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2025-07-30 03:30:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-07-30 04:01:34 +0000"
     },
     "done": true
   },
@@ -1254,6 +1261,12 @@
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_logs": "2025-07-30 03:27:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-07-30 04:02:19 +0000"
     },
     "done": true
   },
