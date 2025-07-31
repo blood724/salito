@@ -1,62 +1,402 @@
-[30Jul2025 03:04:08.908] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[30Jul2025 03:04:08.918] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[30Jul2025 03:04:12.449] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[30Jul2025 03:04:12.555] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/salito/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[30Jul2025 03:04:13.163] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[30Jul2025 03:04:13.168] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Jul2025 03:04:13.172] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Jul2025 03:04:13.180] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Jul2025 03:04:13.589] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[30Jul2025 03:04:17.180] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[30Jul2025 03:04:17.401] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[30Jul2025 03:04:17.411] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[30Jul2025 03:04:17.792] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 73 options available, 0 override(s) found
-[30Jul2025 03:04:19.350] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[30Jul2025 03:04:19.353] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
-[30Jul2025 03:04:19.751] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[30Jul2025 03:04:30.963] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[31Jul2025 04:18:27.857] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[31Jul2025 04:18:27.861] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[31Jul2025 04:18:28.447] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[31Jul2025 04:18:28.520] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/salito/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[31Jul2025 04:18:28.935] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[31Jul2025 04:18:28.937] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[31Jul2025 04:18:28.941] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[31Jul2025 04:18:28.943] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[31Jul2025 04:18:29.290] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[31Jul2025 04:18:32.987] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[31Jul2025 04:18:33.283] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[31Jul2025 04:18:33.302] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[31Jul2025 04:18:33.391] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[31Jul2025 04:18:33.650] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 75 options available, 0 override(s) found
+[31Jul2025 04:18:35.699] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[31Jul2025 04:18:35.702] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[31Jul2025 04:18:36.728] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[31Jul2025 04:18:47.497] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[30Jul2025 03:04:32.542] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[30Jul2025 03:04:32.564] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[30Jul2025 03:04:34.212] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[30Jul2025 03:04:34.212] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[30Jul2025 03:04:38.484] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[30Jul2025 03:04:38.746] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
-[30Jul2025 03:04:39.712] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[30Jul2025 03:04:40.134] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
-[30Jul2025 03:04:40.136] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
-[30Jul2025 03:04:40.137] [main/INFO] [citadel/]: Added 1 modded biome surface rule types via terrablender
-[30Jul2025 03:04:40.601] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.10 Target: 1.20.1-1.4.15
-[30Jul2025 03:04:40.613] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Starting version check at https://api.modrinth.com/updates/MCnBYP0b/forge_updates.json
-[30Jul2025 03:04:40.876] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Found status: OUTDATED Current: 1-v1.1.0c Target: 1.1.0c+mod
-[30Jul2025 03:04:40.877] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[30Jul2025 03:04:41.028] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[30Jul2025 03:04:44.720] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[30Jul2025 03:04:47.061] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/salito/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/assets/.mcassetsroot' uses unexpected schema
-[30Jul2025 03:04:47.063] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/salito/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/data/.mcassetsroot' uses unexpected schema
-[30Jul2025 03:04:48.627] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
-[30Jul2025 03:04:50.662] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[30Jul2025 03:04:53.112] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[30Jul2025 03:04:53.114] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[30Jul2025 03:04:53.115] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/crown_squid}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[30Jul2025 03:04:53.227] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mofus_better_end_:end_engine_recipe
+[31Jul2025 04:18:49.348] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[31Jul2025 04:18:49.427] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[31Jul2025 04:18:49.527] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[31Jul2025 04:18:51.134] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[31Jul2025 04:18:51.135] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[31Jul2025 04:18:55.547] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[31Jul2025 04:18:55.845] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[31Jul2025 04:18:56.755] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[31Jul2025 04:18:57.208] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[31Jul2025 04:18:57.209] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[31Jul2025 04:18:57.210] [main/INFO] [citadel/]: Added 1 modded biome surface rule types via terrablender
+[31Jul2025 04:18:57.496] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.10 Target: 1.20.1-1.4.15
+[31Jul2025 04:18:57.499] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Starting version check at https://api.modrinth.com/updates/MCnBYP0b/forge_updates.json
+[31Jul2025 04:18:57.718] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Found status: OUTDATED Current: 1-v1.1.0c Target: 1.1.0c+mod
+[31Jul2025 04:18:57.719] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[31Jul2025 04:18:57.875] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[31Jul2025 04:19:01.275] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[31Jul2025 04:19:01.725] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:tg_rooted_dirt Expected: 1465 Got: 2002
+[31Jul2025 04:19:01.727] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:tg_tuff Expected: 1466 Got: 2003
+[31Jul2025 04:19:01.728] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:tg_moss_block Expected: 1467 Got: 2004
+[31Jul2025 04:19:01.730] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:tg_deepslate Expected: 1468 Got: 2005
+[31Jul2025 04:19:01.730] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:tg_grass_block Expected: 1469 Got: 2006
+[31Jul2025 04:19:01.731] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:tg_dirt Expected: 1470 Got: 2007
+[31Jul2025 04:19:01.731] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:tg_coarse_dirt Expected: 1471 Got: 2008
+[31Jul2025 04:19:01.733] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:tg_andesite Expected: 1472 Got: 2009
+[31Jul2025 04:19:01.733] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:tg_granite Expected: 1473 Got: 2010
+[31Jul2025 04:19:01.733] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:tg_diorite Expected: 1474 Got: 2011
+[31Jul2025 04:19:01.734] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:tg_stone Expected: 1475 Got: 2012
+[31Jul2025 04:19:01.734] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:tg_podzol Expected: 1476 Got: 2013
+[31Jul2025 04:19:01.736] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:dark_iron_bars Expected: 1477 Got: 2014
+[31Jul2025 04:19:01.736] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:soul_fire_brazier Expected: 1478 Got: 2015
+[31Jul2025 04:19:01.736] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:fire_brazier Expected: 1479 Got: 2016
+[31Jul2025 04:19:01.736] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:pedestal Expected: 1480 Got: 2017
+[31Jul2025 04:19:01.738] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:candle_holder Expected: 1481 Got: 2018
+[31Jul2025 04:19:01.738] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:dark_iron_trapdoor Expected: 1482 Got: 2019
+[31Jul2025 04:19:01.738] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:dark_iron_door Expected: 1483 Got: 2020
+[31Jul2025 04:19:01.739] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:dark_iron_block Expected: 1484 Got: 2021
+[31Jul2025 04:19:01.740] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:skull_with_rib_cage Expected: 1485 Got: 2022
+[31Jul2025 04:19:01.741] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:leaning_skeleton Expected: 1486 Got: 2023
+[31Jul2025 04:19:01.741] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:skull_pile Expected: 1487 Got: 2024
+[31Jul2025 04:19:01.741] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:lying_skeleton Expected: 1488 Got: 2025
+[31Jul2025 04:19:01.741] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:wither_skull_with_rib_cage Expected: 1489 Got: 2026
+[31Jul2025 04:19:01.742] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:leaning_wither_skeleton Expected: 1490 Got: 2027
+[31Jul2025 04:19:01.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:wither_skull_pile Expected: 1491 Got: 2028
+[31Jul2025 04:19:01.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:lying_wither_skeleton Expected: 1492 Got: 2029
+[31Jul2025 04:19:01.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:creeper_skeleton Expected: 1493 Got: 2030
+[31Jul2025 04:19:01.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:skeleton_hand Expected: 1494 Got: 2031
+[31Jul2025 04:19:01.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:wither_skeleton_hand Expected: 1495 Got: 2032
+[31Jul2025 04:19:01.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:bone_remains Expected: 1496 Got: 2033
+[31Jul2025 04:19:01.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:wither_bone_remains Expected: 1497 Got: 2034
+[31Jul2025 04:19:01.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:laterally_lying_skeleton Expected: 1498 Got: 2035
+[31Jul2025 04:19:01.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:laterally_lying_wither_skeleton Expected: 1499 Got: 2036
+[31Jul2025 04:19:01.744] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:skull_on_pike Expected: 1500 Got: 2037
+[31Jul2025 04:19:01.744] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:wither_skull_on_pike Expected: 1501 Got: 2038
+[31Jul2025 04:19:01.746] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:torso_pile Expected: 1502 Got: 2039
+[31Jul2025 04:19:01.747] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:wither_torso_pile Expected: 1503 Got: 2040
+[31Jul2025 04:19:01.747] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:hanged_skeleton Expected: 1504 Got: 2041
+[31Jul2025 04:19:01.748] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:hanged_wither_skeleton Expected: 1505 Got: 2042
+[31Jul2025 04:19:01.749] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:black_urn Expected: 1506 Got: 2043
+[31Jul2025 04:19:01.750] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:brown_urn Expected: 1507 Got: 2044
+[31Jul2025 04:19:01.750] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:white_urn Expected: 1508 Got: 2045
+[31Jul2025 04:19:01.750] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:gray_urn Expected: 1509 Got: 2046
+[31Jul2025 04:19:01.750] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:light_gray_urn Expected: 1510 Got: 2047
+[31Jul2025 04:19:01.753] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:blue_urn Expected: 1511 Got: 2048
+[31Jul2025 04:19:01.753] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:cyan_urn Expected: 1512 Got: 2049
+[31Jul2025 04:19:01.753] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:light_blue_urn Expected: 1513 Got: 2050
+[31Jul2025 04:19:01.755] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:red_urn Expected: 1514 Got: 2051
+[31Jul2025 04:19:01.755] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:orange_urn Expected: 1515 Got: 2052
+[31Jul2025 04:19:01.755] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:yellow_urn Expected: 1516 Got: 2053
+[31Jul2025 04:19:01.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:pink_urn Expected: 1517 Got: 2054
+[31Jul2025 04:19:01.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:magenta_urn Expected: 1518 Got: 2055
+[31Jul2025 04:19:01.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:purple_urn Expected: 1519 Got: 2056
+[31Jul2025 04:19:01.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:green_urn Expected: 1520 Got: 2057
+[31Jul2025 04:19:01.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:lime_urn Expected: 1521 Got: 2058
+[31Jul2025 04:19:01.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_black_urn Expected: 1522 Got: 2059
+[31Jul2025 04:19:01.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_brown_urn Expected: 1523 Got: 2060
+[31Jul2025 04:19:01.757] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_white_urn Expected: 1524 Got: 2061
+[31Jul2025 04:19:01.757] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_gray_urn Expected: 1525 Got: 2062
+[31Jul2025 04:19:01.757] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_light_gray_urn Expected: 1526 Got: 2063
+[31Jul2025 04:19:01.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_blue_urn Expected: 1527 Got: 2064
+[31Jul2025 04:19:01.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_cyan_urn Expected: 1528 Got: 2065
+[31Jul2025 04:19:01.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_light_blue_urn Expected: 1529 Got: 2066
+[31Jul2025 04:19:01.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_red_urn Expected: 1530 Got: 2067
+[31Jul2025 04:19:01.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_orange_urn Expected: 1531 Got: 2068
+[31Jul2025 04:19:01.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_yellow_urn Expected: 1532 Got: 2069
+[31Jul2025 04:19:01.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_pink_urn Expected: 1533 Got: 2070
+[31Jul2025 04:19:01.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_magenta_urn Expected: 1534 Got: 2071
+[31Jul2025 04:19:01.761] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_purple_urn Expected: 1535 Got: 2072
+[31Jul2025 04:19:01.761] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_green_urn Expected: 1536 Got: 2073
+[31Jul2025 04:19:01.761] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:small_lime_urn Expected: 1537 Got: 2074
+[31Jul2025 04:19:01.762] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:sarcophagus Expected: 1538 Got: 2075
+[31Jul2025 04:19:01.762] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:oak_coffin Expected: 1539 Got: 2076
+[31Jul2025 04:19:01.762] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:spruce_coffin Expected: 1540 Got: 2077
+[31Jul2025 04:19:01.762] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:birch_coffin Expected: 1541 Got: 2078
+[31Jul2025 04:19:01.763] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:dark_oak_coffin Expected: 1542 Got: 2079
+[31Jul2025 04:19:01.763] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:jungle_coffin Expected: 1543 Got: 2080
+[31Jul2025 04:19:01.763] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:acacia_coffin Expected: 1544 Got: 2081
+[31Jul2025 04:19:01.763] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:warped_coffin Expected: 1545 Got: 2082
+[31Jul2025 04:19:01.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:crimson_coffin Expected: 1546 Got: 2083
+[31Jul2025 04:19:01.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:mangrove_coffin Expected: 1547 Got: 2084
+[31Jul2025 04:19:01.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:bamboo_coffin Expected: 1548 Got: 2085
+[31Jul2025 04:19:01.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:cherry_coffin Expected: 1549 Got: 2086
+[31Jul2025 04:19:01.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:vase_block Expected: 1550 Got: 2087
+[31Jul2025 04:19:01.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:gravestone Expected: 1551 Got: 2088
+[31Jul2025 04:19:01.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:cobblestone_gravestone Expected: 1552 Got: 2089
+[31Jul2025 04:19:01.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:mossy_cobblestone_gravestone Expected: 1553 Got: 2090
+[31Jul2025 04:19:01.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:deepslate_gravestone Expected: 1554 Got: 2091
+[31Jul2025 04:19:01.765] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:blackstone_gravestone Expected: 1555 Got: 2092
+[31Jul2025 04:19:01.765] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:cracked_blackstone_gravestone Expected: 1556 Got: 2093
+[31Jul2025 04:19:01.765] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:stone_bricks_gravestone Expected: 1557 Got: 2094
+[31Jul2025 04:19:01.765] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:mossy_stone_bricks_gravestone Expected: 1558 Got: 2095
+[31Jul2025 04:19:01.765] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:bricks_gravestone Expected: 1559 Got: 2096
+[31Jul2025 04:19:01.765] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:sandstone_gravestone Expected: 1560 Got: 2097
+[31Jul2025 04:19:01.765] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:red_sandstone_gravestone Expected: 1561 Got: 2098
+[31Jul2025 04:19:01.765] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:gilded_blackstone_gravestone Expected: 1562 Got: 2099
+[31Jul2025 04:19:01.767] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:quartz_bricks_gravestone Expected: 1563 Got: 2100
+[31Jul2025 04:19:01.767] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:altar Expected: 1564 Got: 2101
+[31Jul2025 04:19:01.767] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:altar_side Expected: 1565 Got: 2102
+[31Jul2025 04:19:01.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:altar_corner Expected: 1566 Got: 2103
+[31Jul2025 04:19:01.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:altar_center Expected: 1567 Got: 2104
+[31Jul2025 04:19:01.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:lower_bone_staff Expected: 1568 Got: 2105
+[31Jul2025 04:19:01.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:middle_bone_staff Expected: 1569 Got: 2106
+[31Jul2025 04:19:01.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:upper_bone_staff Expected: 1570 Got: 2107
+[31Jul2025 04:19:01.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:ossuary Expected: 1571 Got: 2108
+[31Jul2025 04:19:01.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:soil Expected: 1572 Got: 2109
+[31Jul2025 04:19:01.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:turf Expected: 1573 Got: 2110
+[31Jul2025 04:19:01.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:gloom_stone Expected: 1574 Got: 2111
+[31Jul2025 04:19:01.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:scarlet_heart Expected: 1575 Got: 2112
+[31Jul2025 04:19:01.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: graveyard:great_scarlet_heart Expected: 1576 Got: 2113
+[31Jul2025 04:19:01.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:sarcophagus_lid Expected: 1978 Got: 3129
+[31Jul2025 04:19:01.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:sarcophagus_base Expected: 1979 Got: 3130
+[31Jul2025 04:19:01.774] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:dark_oak_coffin_lid Expected: 1980 Got: 3131
+[31Jul2025 04:19:01.774] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:dark_oak_coffin_base Expected: 1981 Got: 3132
+[31Jul2025 04:19:01.774] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:oak_coffin_lid Expected: 1982 Got: 3133
+[31Jul2025 04:19:01.774] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:oak_coffin_base Expected: 1983 Got: 3134
+[31Jul2025 04:19:01.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:birch_coffin_lid Expected: 1984 Got: 3135
+[31Jul2025 04:19:01.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:birch_coffin_base Expected: 1985 Got: 3136
+[31Jul2025 04:19:01.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:jungle_coffin_lid Expected: 1986 Got: 3137
+[31Jul2025 04:19:01.777] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:jungle_coffin_base Expected: 1987 Got: 3138
+[31Jul2025 04:19:01.777] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:acacia_coffin_lid Expected: 1988 Got: 3139
+[31Jul2025 04:19:01.777] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:acacia_coffin_base Expected: 1989 Got: 3140
+[31Jul2025 04:19:01.777] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:spruce_coffin_lid Expected: 1990 Got: 3141
+[31Jul2025 04:19:01.778] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:spruce_coffin_base Expected: 1991 Got: 3142
+[31Jul2025 04:19:01.780] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:warped_coffin_lid Expected: 1992 Got: 3143
+[31Jul2025 04:19:01.780] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:warped_coffin_base Expected: 1993 Got: 3144
+[31Jul2025 04:19:01.780] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:crimson_coffin_lid Expected: 1994 Got: 3145
+[31Jul2025 04:19:01.781] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:crimson_coffin_base Expected: 1995 Got: 3146
+[31Jul2025 04:19:01.781] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:mangrove_coffin_lid Expected: 1996 Got: 3147
+[31Jul2025 04:19:01.781] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:mangrove_coffin_base Expected: 1997 Got: 3148
+[31Jul2025 04:19:01.781] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:bamboo_coffin_lid Expected: 1998 Got: 3149
+[31Jul2025 04:19:01.784] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:bamboo_coffin_base Expected: 1999 Got: 3150
+[31Jul2025 04:19:01.784] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:cherry_coffin_lid Expected: 2000 Got: 3151
+[31Jul2025 04:19:01.784] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:cherry_coffin_base Expected: 2001 Got: 3152
+[31Jul2025 04:19:01.784] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:ossuary Expected: 2002 Got: 3153
+[31Jul2025 04:19:01.784] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:incarnated_evil_music_disc Expected: 2003 Got: 3154
+[31Jul2025 04:19:01.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:skeleton_creeper_spawn_egg Expected: 2004 Got: 3155
+[31Jul2025 04:19:01.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:acolyte_spawn_egg Expected: 2005 Got: 3156
+[31Jul2025 04:19:01.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:ghoul_spawn_egg Expected: 2006 Got: 3157
+[31Jul2025 04:19:01.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:reaper_spawn_egg Expected: 2007 Got: 3158
+[31Jul2025 04:19:01.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:revenant_spawn_egg Expected: 2008 Got: 3159
+[31Jul2025 04:19:01.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:nightmare_spawn_egg Expected: 2009 Got: 3160
+[31Jul2025 04:19:01.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:lich_spawn_egg Expected: 2010 Got: 3161
+[31Jul2025 04:19:01.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:nameless_hanged_spawn_egg Expected: 2011 Got: 3162
+[31Jul2025 04:19:01.789] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:wraith_spawn_egg Expected: 2012 Got: 3163
+[31Jul2025 04:19:01.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:corrupted_pillager_spawn_egg Expected: 2013 Got: 3164
+[31Jul2025 04:19:01.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:corrupted_vindicator_spawn_egg Expected: 2014 Got: 3165
+[31Jul2025 04:19:01.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:bone_dagger Expected: 2015 Got: 3166
+[31Jul2025 04:19:01.791] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:dark_iron_ingot Expected: 2016 Got: 3167
+[31Jul2025 04:19:01.791] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:corruption Expected: 2017 Got: 3168
+[31Jul2025 04:19:01.791] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:tg_rooted_dirt Expected: 2018 Got: 3169
+[31Jul2025 04:19:01.792] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:tg_tuff Expected: 2019 Got: 3170
+[31Jul2025 04:19:01.794] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:tg_moss_block Expected: 2020 Got: 3171
+[31Jul2025 04:19:01.794] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:tg_deepslate Expected: 2021 Got: 3172
+[31Jul2025 04:19:01.796] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:tg_grass_block Expected: 2022 Got: 3173
+[31Jul2025 04:19:01.796] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:tg_dirt Expected: 2023 Got: 3174
+[31Jul2025 04:19:01.796] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:tg_coarse_dirt Expected: 2024 Got: 3175
+[31Jul2025 04:19:01.797] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:tg_andesite Expected: 2025 Got: 3176
+[31Jul2025 04:19:01.797] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:tg_granite Expected: 2026 Got: 3177
+[31Jul2025 04:19:01.797] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:tg_diorite Expected: 2027 Got: 3178
+[31Jul2025 04:19:01.797] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:tg_stone Expected: 2028 Got: 3179
+[31Jul2025 04:19:01.797] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:tg_podzol Expected: 2029 Got: 3180
+[31Jul2025 04:19:01.797] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:dark_iron_bars Expected: 2030 Got: 3181
+[31Jul2025 04:19:01.798] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:soul_fire_brazier Expected: 2031 Got: 3182
+[31Jul2025 04:19:01.798] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:fire_brazier Expected: 2032 Got: 3183
+[31Jul2025 04:19:01.800] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:pedestal Expected: 2033 Got: 3184
+[31Jul2025 04:19:01.800] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:candle_holder Expected: 2034 Got: 3185
+[31Jul2025 04:19:01.801] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:dark_iron_trapdoor Expected: 2035 Got: 3186
+[31Jul2025 04:19:01.801] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:dark_iron_door Expected: 2036 Got: 3187
+[31Jul2025 04:19:01.801] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:dark_iron_block Expected: 2037 Got: 3188
+[31Jul2025 04:19:01.801] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:skull_with_rib_cage Expected: 2038 Got: 3189
+[31Jul2025 04:19:01.801] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:leaning_skeleton Expected: 2039 Got: 3190
+[31Jul2025 04:19:01.801] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:skull_pile Expected: 2040 Got: 3191
+[31Jul2025 04:19:01.802] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:lying_skeleton Expected: 2041 Got: 3192
+[31Jul2025 04:19:01.802] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:wither_skull_with_rib_cage Expected: 2042 Got: 3193
+[31Jul2025 04:19:01.802] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:leaning_wither_skeleton Expected: 2043 Got: 3194
+[31Jul2025 04:19:01.804] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:wither_skull_pile Expected: 2044 Got: 3195
+[31Jul2025 04:19:01.804] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:lying_wither_skeleton Expected: 2045 Got: 3196
+[31Jul2025 04:19:01.804] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:creeper_skeleton Expected: 2046 Got: 3197
+[31Jul2025 04:19:01.804] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:skeleton_hand Expected: 2047 Got: 3198
+[31Jul2025 04:19:01.804] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:wither_skeleton_hand Expected: 2048 Got: 3199
+[31Jul2025 04:19:01.808] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:hanged_skeleton Expected: 2049 Got: 3200
+[31Jul2025 04:19:01.808] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:hanged_wither_skeleton Expected: 2050 Got: 3201
+[31Jul2025 04:19:01.808] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:vase_block Expected: 2051 Got: 3202
+[31Jul2025 04:19:01.808] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:gravestone Expected: 2052 Got: 3203
+[31Jul2025 04:19:01.808] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:cobblestone_gravestone Expected: 2053 Got: 3204
+[31Jul2025 04:19:01.811] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:mossy_cobblestone_gravestone Expected: 2054 Got: 3205
+[31Jul2025 04:19:01.812] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:deepslate_gravestone Expected: 2055 Got: 3206
+[31Jul2025 04:19:01.814] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:blackstone_gravestone Expected: 2056 Got: 3207
+[31Jul2025 04:19:01.819] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:cracked_blackstone_gravestone Expected: 2057 Got: 3208
+[31Jul2025 04:19:01.819] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:stone_bricks_gravestone Expected: 2058 Got: 3209
+[31Jul2025 04:19:01.819] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:mossy_stone_bricks_gravestone Expected: 2059 Got: 3210
+[31Jul2025 04:19:01.819] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:bricks_gravestone Expected: 2060 Got: 3211
+[31Jul2025 04:19:01.819] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:gilded_blackstone_gravestone Expected: 2061 Got: 3212
+[31Jul2025 04:19:01.819] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:sandstone_gravestone Expected: 2062 Got: 3213
+[31Jul2025 04:19:01.820] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:red_sandstone_gravestone Expected: 2063 Got: 3214
+[31Jul2025 04:19:01.820] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:quartz_bricks_gravestone Expected: 2064 Got: 3215
+[31Jul2025 04:19:01.820] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:black_urn Expected: 2065 Got: 3216
+[31Jul2025 04:19:01.820] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:brown_urn Expected: 2066 Got: 3217
+[31Jul2025 04:19:01.820] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:white_urn Expected: 2067 Got: 3218
+[31Jul2025 04:19:01.826] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:gray_urn Expected: 2068 Got: 3219
+[31Jul2025 04:19:01.826] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:light_gray_urn Expected: 2069 Got: 3220
+[31Jul2025 04:19:01.829] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:blue_urn Expected: 2070 Got: 3221
+[31Jul2025 04:19:01.830] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:cyan_urn Expected: 2071 Got: 3222
+[31Jul2025 04:19:01.832] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:light_blue_urn Expected: 2072 Got: 3223
+[31Jul2025 04:19:01.834] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:red_urn Expected: 2073 Got: 3224
+[31Jul2025 04:19:01.836] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:orange_urn Expected: 2074 Got: 3225
+[31Jul2025 04:19:01.839] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:yellow_urn Expected: 2075 Got: 3226
+[31Jul2025 04:19:01.839] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:pink_urn Expected: 2076 Got: 3227
+[31Jul2025 04:19:01.839] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:magenta_urn Expected: 2077 Got: 3228
+[31Jul2025 04:19:01.840] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:purple_urn Expected: 2078 Got: 3229
+[31Jul2025 04:19:01.840] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:green_urn Expected: 2079 Got: 3230
+[31Jul2025 04:19:01.840] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:lime_urn Expected: 2080 Got: 3231
+[31Jul2025 04:19:01.840] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_black_urn Expected: 2081 Got: 3232
+[31Jul2025 04:19:01.840] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_brown_urn Expected: 2082 Got: 3233
+[31Jul2025 04:19:01.840] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_white_urn Expected: 2083 Got: 3234
+[31Jul2025 04:19:01.840] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_gray_urn Expected: 2084 Got: 3235
+[31Jul2025 04:19:01.841] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_light_gray_urn Expected: 2085 Got: 3236
+[31Jul2025 04:19:01.841] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_blue_urn Expected: 2086 Got: 3237
+[31Jul2025 04:19:01.841] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_cyan_urn Expected: 2087 Got: 3238
+[31Jul2025 04:19:01.843] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_light_blue_urn Expected: 2088 Got: 3239
+[31Jul2025 04:19:01.843] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_red_urn Expected: 2089 Got: 3240
+[31Jul2025 04:19:01.844] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_orange_urn Expected: 2090 Got: 3241
+[31Jul2025 04:19:01.844] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_yellow_urn Expected: 2091 Got: 3242
+[31Jul2025 04:19:01.844] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_pink_urn Expected: 2092 Got: 3243
+[31Jul2025 04:19:01.844] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_magenta_urn Expected: 2093 Got: 3244
+[31Jul2025 04:19:01.844] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_purple_urn Expected: 2094 Got: 3245
+[31Jul2025 04:19:01.844] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_green_urn Expected: 2095 Got: 3246
+[31Jul2025 04:19:01.844] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:small_lime_urn Expected: 2096 Got: 3247
+[31Jul2025 04:19:01.845] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:sarcophagus Expected: 2097 Got: 3248
+[31Jul2025 04:19:01.845] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:oak_coffin Expected: 2098 Got: 3249
+[31Jul2025 04:19:01.845] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:spruce_coffin Expected: 2099 Got: 3250
+[31Jul2025 04:19:01.845] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:birch_coffin Expected: 2100 Got: 3251
+[31Jul2025 04:19:01.848] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:dark_oak_coffin Expected: 2101 Got: 3252
+[31Jul2025 04:19:01.848] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:jungle_coffin Expected: 2102 Got: 3253
+[31Jul2025 04:19:01.848] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:acacia_coffin Expected: 2103 Got: 3254
+[31Jul2025 04:19:01.849] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:warped_coffin Expected: 2104 Got: 3255
+[31Jul2025 04:19:01.849] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:crimson_coffin Expected: 2105 Got: 3256
+[31Jul2025 04:19:01.849] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:mangrove_coffin Expected: 2106 Got: 3257
+[31Jul2025 04:19:01.849] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:bamboo_coffin Expected: 2107 Got: 3258
+[31Jul2025 04:19:01.849] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:cherry_coffin Expected: 2108 Got: 3259
+[31Jul2025 04:19:01.849] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:vial_of_blood Expected: 2109 Got: 3260
+[31Jul2025 04:19:01.849] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:torso_pile Expected: 2110 Got: 3261
+[31Jul2025 04:19:01.849] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:wither_torso_pile Expected: 2111 Got: 3262
+[31Jul2025 04:19:01.850] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:skull_on_pike Expected: 2112 Got: 3263
+[31Jul2025 04:19:01.850] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:wither_skull_on_pike Expected: 2113 Got: 3264
+[31Jul2025 04:19:01.854] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:bone_remains Expected: 2114 Got: 3265
+[31Jul2025 04:19:01.854] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:wither_bone_remains Expected: 2115 Got: 3266
+[31Jul2025 04:19:01.854] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:laterally_lying_skeleton Expected: 2116 Got: 3267
+[31Jul2025 04:19:01.854] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:laterally_lying_wither_skeleton Expected: 2117 Got: 3268
+[31Jul2025 04:19:01.854] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:white_bone_staff Expected: 2118 Got: 3269
+[31Jul2025 04:19:01.855] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:black_bone_staff Expected: 2119 Got: 3270
+[31Jul2025 04:19:01.855] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:red_bone_staff Expected: 2120 Got: 3271
+[31Jul2025 04:19:01.855] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:cyan_bone_staff Expected: 2121 Got: 3272
+[31Jul2025 04:19:01.855] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:purple_bone_staff Expected: 2122 Got: 3273
+[31Jul2025 04:19:01.855] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:altar Expected: 2123 Got: 3274
+[31Jul2025 04:19:01.855] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:altar_side Expected: 2124 Got: 3275
+[31Jul2025 04:19:01.855] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:altar_corner Expected: 2125 Got: 3276
+[31Jul2025 04:19:01.856] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:altar_center Expected: 2126 Got: 3277
+[31Jul2025 04:19:01.856] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:upper_bone_staff Expected: 2127 Got: 3278
+[31Jul2025 04:19:01.856] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:middle_bone_staff Expected: 2128 Got: 3279
+[31Jul2025 04:19:01.856] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: graveyard:lower_bone_staff Expected: 2129 Got: 3280
+[31Jul2025 04:19:01.861] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.spawn Expected: 1625 Got: 2379
+[31Jul2025 04:19:01.863] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.melee Expected: 1626 Got: 2380
+[31Jul2025 04:19:01.864] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.phase_two Expected: 1627 Got: 2381
+[31Jul2025 04:19:01.865] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.phase_three Expected: 1628 Got: 2382
+[31Jul2025 04:19:01.866] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.corpse_spell Expected: 1629 Got: 2383
+[31Jul2025 04:19:01.866] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.shoot_skull Expected: 1630 Got: 2384
+[31Jul2025 04:19:01.866] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.levitation Expected: 1631 Got: 2385
+[31Jul2025 04:19:01.866] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.heal Expected: 1632 Got: 2386
+[31Jul2025 04:19:01.866] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.death Expected: 1633 Got: 2387
+[31Jul2025 04:19:01.866] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.hunt Expected: 1634 Got: 2388
+[31Jul2025 04:19:01.866] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.scare Expected: 1635 Got: 2389
+[31Jul2025 04:19:01.867] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.phase_three_attack Expected: 1636 Got: 2390
+[31Jul2025 04:19:01.867] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.idle Expected: 1637 Got: 2391
+[31Jul2025 04:19:01.867] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.hurt Expected: 1638 Got: 2392
+[31Jul2025 04:19:01.867] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.nameless_hanged.breath Expected: 1639 Got: 2393
+[31Jul2025 04:19:01.868] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.nameless_hanged.ambient Expected: 1640 Got: 2394
+[31Jul2025 04:19:01.868] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.nameless_hanged.interact Expected: 1641 Got: 2395
+[31Jul2025 04:19:01.868] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.corrupted_illager.ambient Expected: 1642 Got: 2396
+[31Jul2025 04:19:01.869] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.corrupted_illager.hurt Expected: 1643 Got: 2397
+[31Jul2025 04:19:01.869] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.corrupted_illager.death Expected: 1644 Got: 2398
+[31Jul2025 04:19:01.869] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.corrupted_illager.step Expected: 1645 Got: 2399
+[31Jul2025 04:19:01.869] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.acolyte.ambient Expected: 1646 Got: 2400
+[31Jul2025 04:19:01.869] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.acolyte.hurt Expected: 1647 Got: 2401
+[31Jul2025 04:19:01.869] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.acolyte.death Expected: 1648 Got: 2402
+[31Jul2025 04:19:01.869] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.reaper.ambient Expected: 1649 Got: 2403
+[31Jul2025 04:19:01.869] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.reaper.hurt Expected: 1650 Got: 2404
+[31Jul2025 04:19:01.869] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.reaper.death Expected: 1651 Got: 2405
+[31Jul2025 04:19:01.870] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.reaper.charge Expected: 1652 Got: 2406
+[31Jul2025 04:19:01.870] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.ghoul.roar Expected: 1653 Got: 2407
+[31Jul2025 04:19:01.870] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.ghoul.ambient Expected: 1654 Got: 2408
+[31Jul2025 04:19:01.870] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.ghoul.hurt Expected: 1655 Got: 2409
+[31Jul2025 04:19:01.870] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.ghoul.death Expected: 1656 Got: 2410
+[31Jul2025 04:19:01.872] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.ghoul.step Expected: 1657 Got: 2411
+[31Jul2025 04:19:01.872] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.ghouling.groan Expected: 1658 Got: 2412
+[31Jul2025 04:19:01.872] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.ghouling.ambient Expected: 1659 Got: 2413
+[31Jul2025 04:19:01.872] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.ghouling.hurt Expected: 1660 Got: 2414
+[31Jul2025 04:19:01.873] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.ghouling.death Expected: 1661 Got: 2415
+[31Jul2025 04:19:01.873] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.ghouling.attack Expected: 1662 Got: 2416
+[31Jul2025 04:19:01.873] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.ghouling.step Expected: 1663 Got: 2417
+[31Jul2025 04:19:01.873] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.ghouling.spawn Expected: 1664 Got: 2418
+[31Jul2025 04:19:01.873] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.revenant.ambient Expected: 1665 Got: 2419
+[31Jul2025 04:19:01.873] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.revenant.hurt Expected: 1666 Got: 2420
+[31Jul2025 04:19:01.873] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.revenant.death Expected: 1667 Got: 2421
+[31Jul2025 04:19:01.873] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.revenant.step Expected: 1668 Got: 2422
+[31Jul2025 04:19:01.873] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.nightmare.ambient Expected: 1669 Got: 2423
+[31Jul2025 04:19:01.874] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.nightmare.hurt Expected: 1670 Got: 2424
+[31Jul2025 04:19:01.874] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.nightmare.death Expected: 1671 Got: 2425
+[31Jul2025 04:19:01.874] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.wraith.ambient Expected: 1672 Got: 2426
+[31Jul2025 04:19:01.874] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.wraith.hurt Expected: 1673 Got: 2427
+[31Jul2025 04:19:01.878] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:block.altar.ambient Expected: 1674 Got: 2428
+[31Jul2025 04:19:01.878] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:block.coffin.open Expected: 1675 Got: 2429
+[31Jul2025 04:19:01.878] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:block.coffin.close Expected: 1676 Got: 2430
+[31Jul2025 04:19:01.878] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:block.urn.open Expected: 1677 Got: 2431
+[31Jul2025 04:19:01.878] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:block.urn.close Expected: 1678 Got: 2432
+[31Jul2025 04:19:01.878] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:block.ossuary.open Expected: 1679 Got: 2433
+[31Jul2025 04:19:01.878] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:block.sarcophagus.use Expected: 1680 Got: 2434
+[31Jul2025 04:19:01.879] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:block.bone.placed Expected: 1681 Got: 2435
+[31Jul2025 04:19:01.879] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:block.bone.ambient Expected: 1682 Got: 2436
+[31Jul2025 04:19:01.879] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:item.vial.splash Expected: 1683 Got: 2437
+[31Jul2025 04:19:01.879] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: graveyard:entity.lich.theme_01 Expected: 1684 Got: 2438
+[31Jul2025 04:19:01.880] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: graveyard:reaper Expected: 228 Got: 478
+[31Jul2025 04:19:01.880] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: graveyard:acolyte Expected: 229 Got: 479
+[31Jul2025 04:19:01.885] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: graveyard:corrupted_vindicator Expected: 230 Got: 480
+[31Jul2025 04:19:01.885] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: graveyard:corrupted_pillager Expected: 231 Got: 481
+[31Jul2025 04:19:01.885] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: graveyard:skeleton_creeper Expected: 232 Got: 482
+[31Jul2025 04:19:01.885] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: graveyard:falling_corpse Expected: 233 Got: 483
+[31Jul2025 04:19:01.886] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: graveyard:ghoul Expected: 234 Got: 484
+[31Jul2025 04:19:01.886] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: graveyard:revenant Expected: 235 Got: 485
+[31Jul2025 04:19:01.887] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: graveyard:wraith Expected: 236 Got: 486
+[31Jul2025 04:19:01.887] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: graveyard:nightmare Expected: 237 Got: 487
+[31Jul2025 04:19:01.887] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: graveyard:ghouling Expected: 238 Got: 488
+[31Jul2025 04:19:01.888] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: graveyard:lich Expected: 239 Got: 489
+[31Jul2025 04:19:01.888] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: graveyard:skull Expected: 240 Got: 490
+[31Jul2025 04:19:01.888] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: graveyard:nameless_hanged Expected: 241 Got: 491
+[31Jul2025 04:19:03.977] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/salito/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
+[31Jul2025 04:19:03.978] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/salito/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
+[31Jul2025 04:19:05.451] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[31Jul2025 04:19:08.299] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[31Jul2025 04:19:11.110] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[31Jul2025 04:19:11.110] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[31Jul2025 04:19:11.111] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/crown_squid}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[31Jul2025 04:19:11.265] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mofus_better_end_:end_engine_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod_element'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23156!/:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23156!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
-	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23156!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -72,8 +412,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Jul2025 03:04:53.240] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[30Jul2025 03:04:53.241] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+[31Jul2025 04:19:11.286] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[31Jul2025 04:19:11.287] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -85,116 +425,87 @@ java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Wh
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
 Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
-	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[30Jul2025 03:04:53.534] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2277 advancements
-[30Jul2025 03:04:53.549] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
-[30Jul2025 03:04:55.558] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[30Jul2025 03:04:55.559] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[30Jul2025 03:04:55.561] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[30Jul2025 03:04:55.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[30Jul2025 03:04:55.708] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[30Jul2025 03:04:55.772] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[30Jul2025 03:04:55.885] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[30Jul2025 03:04:55.886] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[30Jul2025 03:04:55.887] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[30Jul2025 03:04:55.887] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[30Jul2025 03:04:56.189] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[30Jul2025 03:04:56.189] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
-[30Jul2025 03:04:56.190] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
-[30Jul2025 03:04:56.190] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[30Jul2025 03:04:56.190] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
-[30Jul2025 03:04:56.192] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[30Jul2025 03:04:56.194] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
-[30Jul2025 03:04:56.195] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
-[30Jul2025 03:04:56.196] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[30Jul2025 03:04:56.196] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
-[30Jul2025 03:04:56.228] [Server thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[30Jul2025 03:04:56.231] [Server thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[30Jul2025 03:04:56.333] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[30Jul2025 03:04:56.334] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[30Jul2025 03:04:56.338] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
-[30Jul2025 03:04:56.340] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
-[30Jul2025 03:04:56.343] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[30Jul2025 03:04:56.956] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[30Jul2025 03:04:59.073] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[30Jul2025 03:05:04.407] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[30Jul2025 03:05:05.803] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[30Jul2025 03:05:07.103] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[30Jul2025 03:05:08.309] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[30Jul2025 03:05:15.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[30Jul2025 03:05:18.853] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:18.857] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:18.858] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:18.918] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:18.968] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:18.986] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:18.992] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:18.996] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:19.298] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:19.628] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:20.490] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:20.687] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:21.143] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:21.623] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:22.137] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:22.619] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:23.118] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:23.618] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 03:05:24.118] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[30Jul2025 03:05:24.687] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9569 ms
-[30Jul2025 03:05:24.693] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (28.783s)! For help, type "help"
-[30Jul2025 03:05:24.900] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[30Jul2025 03:05:24.907] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[30Jul2025 03:06:10.319] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: titiiiixd[/127.120.157.170:35571] logged in with entity id 220 at (-4.5, 136.0, -7.5)
-[30Jul2025 03:06:10.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd joined the game
-[30Jul2025 03:06:15.493] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BloodSoss[/127.111.177.206:43003] logged in with entity id 234 at (5.116593314374025, 143.0, -23.32348794407558)
-[30Jul2025 03:06:15.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss joined the game
-[30Jul2025 03:06:23.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Alex's Mobs]
-[30Jul2025 03:08:21.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Monster Hunter]
-[30Jul2025 03:09:44.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Stone Age]
-[30Jul2025 03:09:52.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Stone Age]
-[30Jul2025 03:10:25.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Getting an Upgrade]
-[30Jul2025 03:10:59.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Getting an Upgrade]
-[30Jul2025 03:11:48.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Acquire Hardware]
-[30Jul2025 03:11:54.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Isn't It Iron Pick]
-[30Jul2025 03:16:54.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd hit the ground too hard
-[30Jul2025 03:19:59.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd was blown up by Creeper
-[30Jul2025 03:20:29.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Monster Hunter]
-[30Jul2025 03:21:47.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Not Today, Thank You]
-[30Jul2025 03:26:54.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Not Today, Thank You]
-[30Jul2025 03:29:56.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Alex's Mobs]
-[30Jul2025 03:36:43.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Suit Up]
-[30Jul2025 03:37:07.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Suit Up]
-[30Jul2025 03:37:13.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Isn't It Iron Pick]
-[30Jul2025 03:41:33.193] [Worker-Main-20/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[30Jul2025 03:41:33.419] [Worker-Main-20/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[30Jul2025 03:41:33.575] [Worker-Main-20/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[30Jul2025 03:41:35.546] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4023ms or 80 ticks behind
-[30Jul2025 03:44:00.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Sweet Dreams]
-[30Jul2025 03:44:31.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Sweet Dreams]
-[30Jul2025 03:49:05.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd fell from a high place
-[30Jul2025 03:56:59.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Acquire Hardware]
-[30Jul2025 04:03:13.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> ---
-[30Jul2025 04:04:38.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> 96 -146
-[30Jul2025 04:07:49.627] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=562, y=73, z=-290} BlockPos{x=562, y=71, z=-291}
-[30Jul2025 04:12:46.489] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: titiiiixd lost connection: Timed out
-[30Jul2025 04:12:46.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd left the game
-[30Jul2025 04:14:29.982] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BloodSoss lost connection: Disconnected
-[30Jul2025 04:14:29.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss left the game
-[30Jul2025 04:21:34.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[30Jul2025 04:21:34.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[30Jul2025 04:21:34.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[30Jul2025 04:21:34.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[30Jul2025 04:21:35.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[30Jul2025 04:21:35.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
-[30Jul2025 04:21:35.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[30Jul2025 04:21:35.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mofus_better_end_:broken_constellation
-[30Jul2025 04:21:35.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[30Jul2025 04:21:35.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[30Jul2025 04:21:35.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[30Jul2025 04:21:35.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[30Jul2025 04:21:35.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (broken_constellation): All chunks are saved
-[30Jul2025 04:21:35.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[31Jul2025 04:19:11.680] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2322 advancements
+[31Jul2025 04:19:11.702] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[31Jul2025 04:19:14.084] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[31Jul2025 04:19:14.086] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[31Jul2025 04:19:14.086] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[31Jul2025 04:19:14.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[31Jul2025 04:19:14.298] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[31Jul2025 04:19:14.339] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[31Jul2025 04:19:14.475] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[31Jul2025 04:19:14.476] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[31Jul2025 04:19:14.477] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[31Jul2025 04:19:14.478] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[31Jul2025 04:19:15.038] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[31Jul2025 04:19:15.039] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[31Jul2025 04:19:15.040] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[31Jul2025 04:19:15.040] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[31Jul2025 04:19:15.043] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[31Jul2025 04:19:15.048] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[31Jul2025 04:19:15.050] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[31Jul2025 04:19:15.050] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[31Jul2025 04:19:15.050] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[31Jul2025 04:19:15.050] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[31Jul2025 04:19:15.099] [Server thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[31Jul2025 04:19:15.101] [Server thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[31Jul2025 04:19:15.112] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[31Jul2025 04:19:15.205] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[31Jul2025 04:19:15.214] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
+[31Jul2025 04:19:15.217] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
+[31Jul2025 04:19:15.222] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[31Jul2025 04:19:47.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[31Jul2025 04:19:50.093] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:50.112] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:50.165] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:50.169] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:50.171] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:50.176] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:50.179] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:51.217] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:51.234] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:51.769] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:52.107] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:52.697] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:53.140] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:53.812] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:54.106] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:54.600] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:55.116] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:55.618] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:56.100] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:56.603] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:57.099] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:57.599] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:58.098] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 04:19:58.604] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[31Jul2025 04:19:59.071] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11974 ms
+[31Jul2025 04:19:59.072] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (44.561s)! For help, type "help"
+[31Jul2025 04:19:59.466] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[31Jul2025 04:19:59.490] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[31Jul2025 04:20:30.674] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [friendsandfoes:networking,graveyard:spawn_entity] rejected their client side version number
+[31Jul2025 04:20:30.675] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[31Jul2025 04:20:30.706] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@423371e1[id=<null>,name=titiiiixd,properties={},legacy=false] (/127.120.157.170:41411) lost connection: Connection closed - mismatched mod channel list
+[31Jul2025 04:21:55.999] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [friendsandfoes:networking,graveyard:spawn_entity] rejected their client side version number
+[31Jul2025 04:21:56.000] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[31Jul2025 04:21:56.049] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@ba9cda5[id=<null>,name=titiiiixd,properties={},legacy=false] (/127.120.157.170:57119) lost connection: Connection closed - mismatched mod channel list
+[31Jul2025 04:24:08.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[31Jul2025 04:24:08.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[31Jul2025 04:24:08.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[31Jul2025 04:24:09.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[31Jul2025 04:24:10.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[31Jul2025 04:24:10.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[31Jul2025 04:24:10.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[31Jul2025 04:24:10.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[31Jul2025 04:24:10.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mofus_better_end_:broken_constellation
+[31Jul2025 04:24:10.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[31Jul2025 04:24:10.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[31Jul2025 04:24:10.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[31Jul2025 04:24:10.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[31Jul2025 04:24:10.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[31Jul2025 04:24:10.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (broken_constellation): All chunks are saved
+[31Jul2025 04:24:10.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
