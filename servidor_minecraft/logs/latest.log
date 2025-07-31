@@ -1,47 +1,47 @@
-[31Jul2025 04:31:25.929] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[31Jul2025 04:31:25.939] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[31Jul2025 04:31:27.362] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[31Jul2025 04:31:27.431] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/salito/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[31Jul2025 04:31:27.829] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[31Jul2025 04:31:27.834] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[31Jul2025 04:31:27.836] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[31Jul2025 04:31:27.838] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[31Jul2025 04:31:28.095] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[31Jul2025 04:31:31.405] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[31Jul2025 04:31:31.611] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[31Jul2025 04:31:31.615] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[31Jul2025 04:31:31.648] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[31Jul2025 04:31:31.845] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 75 options available, 0 override(s) found
-[31Jul2025 04:31:33.752] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[31Jul2025 04:31:33.755] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
-[31Jul2025 04:31:34.369] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[31Jul2025 04:31:44.636] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[31Jul2025 17:01:59.212] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[31Jul2025 17:01:59.218] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[31Jul2025 17:02:01.094] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[31Jul2025 17:02:01.183] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/salito/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[31Jul2025 17:02:01.609] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[31Jul2025 17:02:01.613] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[31Jul2025 17:02:01.615] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[31Jul2025 17:02:01.616] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[31Jul2025 17:02:01.900] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[31Jul2025 17:02:05.022] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[31Jul2025 17:02:05.348] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[31Jul2025 17:02:05.353] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[31Jul2025 17:02:05.388] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[31Jul2025 17:02:05.568] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 75 options available, 0 override(s) found
+[31Jul2025 17:02:07.611] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[31Jul2025 17:02:07.614] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[31Jul2025 17:02:08.223] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[31Jul2025 17:02:20.082] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[31Jul2025 04:31:46.351] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
-[31Jul2025 04:31:46.465] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[31Jul2025 04:31:46.598] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[31Jul2025 04:31:48.003] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[31Jul2025 04:31:48.003] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[31Jul2025 04:31:52.611] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[31Jul2025 04:31:52.842] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
-[31Jul2025 04:31:53.411] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[31Jul2025 04:31:53.948] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
-[31Jul2025 04:31:53.949] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
-[31Jul2025 04:31:53.953] [main/INFO] [citadel/]: Added 1 modded biome surface rule types via terrablender
-[31Jul2025 04:31:54.240] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.10 Target: 1.20.1-1.4.15
-[31Jul2025 04:31:54.244] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Starting version check at https://api.modrinth.com/updates/MCnBYP0b/forge_updates.json
-[31Jul2025 04:31:54.500] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Found status: OUTDATED Current: 1-v1.1.0c Target: 1.1.0c+mod
-[31Jul2025 04:31:54.501] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[31Jul2025 04:31:54.623] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[31Jul2025 04:31:58.766] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[31Jul2025 04:32:01.459] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/salito/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
-[31Jul2025 04:32:01.460] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/salito/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
-[31Jul2025 04:32:03.059] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
-[31Jul2025 04:32:06.607] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[31Jul2025 04:32:09.056] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[31Jul2025 04:32:09.056] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[31Jul2025 04:32:09.057] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/crown_squid}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[31Jul2025 04:32:09.182] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mofus_better_end_:end_engine_recipe
+[31Jul2025 17:02:21.871] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[31Jul2025 17:02:22.053] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[31Jul2025 17:02:22.080] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[31Jul2025 17:02:23.206] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[31Jul2025 17:02:23.207] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[31Jul2025 17:02:27.255] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[31Jul2025 17:02:27.642] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[31Jul2025 17:02:28.246] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[31Jul2025 17:02:28.715] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[31Jul2025 17:02:28.717] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[31Jul2025 17:02:28.718] [main/INFO] [citadel/]: Added 1 modded biome surface rule types via terrablender
+[31Jul2025 17:02:28.966] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.10 Target: 1.20.1-1.4.15
+[31Jul2025 17:02:28.967] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Starting version check at https://api.modrinth.com/updates/MCnBYP0b/forge_updates.json
+[31Jul2025 17:02:29.190] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Found status: OUTDATED Current: 1-v1.1.0c Target: 1.1.0c+mod
+[31Jul2025 17:02:29.190] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[31Jul2025 17:02:29.344] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[31Jul2025 17:02:32.806] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[31Jul2025 17:02:35.305] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/salito/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
+[31Jul2025 17:02:35.307] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/salito/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
+[31Jul2025 17:02:36.758] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[31Jul2025 17:02:40.035] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[31Jul2025 17:02:42.617] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[31Jul2025 17:02:42.618] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[31Jul2025 17:02:42.618] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/crown_squid}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[31Jul2025 17:02:42.737] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mofus_better_end_:end_engine_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod_element'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23160!/:?]
@@ -74,8 +74,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[31Jul2025 04:32:09.213] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[31Jul2025 04:32:09.214] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+[31Jul2025 17:02:42.758] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[31Jul2025 17:02:42.759] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -91,438 +91,83 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[31Jul2025 04:32:09.473] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2322 advancements
-[31Jul2025 04:32:09.494] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
-[31Jul2025 04:32:11.905] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[31Jul2025 04:32:11.910] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[31Jul2025 04:32:11.910] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[31Jul2025 04:32:11.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[31Jul2025 04:32:12.463] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[31Jul2025 04:32:12.526] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[31Jul2025 04:32:12.689] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[31Jul2025 04:32:12.689] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[31Jul2025 04:32:12.690] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[31Jul2025 04:32:12.690] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[31Jul2025 04:32:13.025] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[31Jul2025 04:32:13.026] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
-[31Jul2025 04:32:13.026] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
-[31Jul2025 04:32:13.028] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[31Jul2025 04:32:13.029] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
-[31Jul2025 04:32:13.034] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[31Jul2025 04:32:13.035] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
-[31Jul2025 04:32:13.037] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
-[31Jul2025 04:32:13.039] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[31Jul2025 04:32:13.040] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
-[31Jul2025 04:32:13.081] [Server thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[31Jul2025 04:32:13.082] [Server thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[31Jul2025 04:32:13.398] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[31Jul2025 04:32:13.399] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[31Jul2025 04:32:13.404] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
-[31Jul2025 04:32:13.406] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
-[31Jul2025 04:32:13.410] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[31Jul2025 04:32:14.650] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[31Jul2025 04:32:16.544] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[31Jul2025 04:32:19.306] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[31Jul2025 04:32:20.680] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[31Jul2025 04:32:25.547] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[31Jul2025 04:32:29.093] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[31Jul2025 04:32:29.679] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[31Jul2025 04:32:31.640] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[31Jul2025 04:32:35.446] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[31Jul2025 04:32:37.471] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[31Jul2025 04:32:40.757] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[31Jul2025 04:32:43.880] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[31Jul2025 04:32:44.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[31Jul2025 04:32:47.587] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[31Jul2025 04:32:56.830] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:56.955] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:56.962] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:56.990] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.026] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.072] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.104] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.149] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.172] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.199] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.228] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.257] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.267] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.282] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.319] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.341] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.380] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.395] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.408] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.467] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.494] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.524] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.542] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.569] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.587] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.611] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.621] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:57.998] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:58.498] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:58.998] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:32:59.498] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 04:33:00.327] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 15829 ms
-[31Jul2025 04:33:00.327] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (47.611s)! For help, type "help"
-[31Jul2025 04:33:00.390] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[31Jul2025 04:33:00.398] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[31Jul2025 04:33:14.849] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: titiiiixd[/127.120.157.170:34727] logged in with entity id 251 at (-0.5396565784864578, -49.0, -140.30000001192093)
-[31Jul2025 04:33:14.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd joined the game
-[31Jul2025 04:33:15.358] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BloodSoss[/127.39.20.82:52849] logged in with entity id 252 at (141.69999998807907, 51.0, -171.69999998807907)
-[31Jul2025 04:33:15.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss joined the game
-[31Jul2025 04:33:38.232] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2176ms or 43 ticks behind
-[31Jul2025 04:35:19.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Sneak 100]
-[31Jul2025 04:38:40.504] [Server thread/ERROR] [net.minecraft.Util/]: onTrackingStart called during navigation iteration
-java.lang.IllegalStateException: onTrackingStart called during navigation iteration
-	at net.minecraft.server.level.ServerLevel$EntityCallbacks.m_141985_(ServerLevel.java:1514) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel$EntityCallbacks.m_141985_(ServerLevel.java:1488) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157575_(PersistentEntitySectionManager.java:136) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
-	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
-	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157543_(PersistentEntitySectionManager.java:179) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
-	at java.util.stream.LongPipeline$1$1.accept(LongPipeline.java:177) ~[?:?]
-	at java.util.PrimitiveIterator$OfLong.forEachRemaining(PrimitiveIterator.java:183) ~[?:?]
-	at java.util.Spliterators$LongIteratorSpliterator.forEachRemaining(Spliterators.java:2046) ~[?:?]
-	at java.util.Spliterator$OfLong.forEachRemaining(Spliterator.java:775) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157527_(PersistentEntitySectionManager.java:160) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_287207_(PersistentEntitySectionManager.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ChunkMap.m_287285_(ChunkMap.java:1307) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ChunkHolder.m_287043_(ChunkHolder.java:334) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:131) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_6522_(Level.java:187) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_6325_(Level.java:182) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_8055_(Level.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.navigation.GroundPathNavigation.m_7864_(GroundPathNavigation.java:43) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.navigation.PathNavigation.m_26569_(PathNavigation.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:965) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.block.DoorBlock.m_153165_(DoorBlock.java:214) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257204_(InteractWithDoor.java:76) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.behavior.declarative.BehaviorBuilder$1.m_257808_(BehaviorBuilder.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.behavior.OneShot.m_22554_(OneShot.java:20) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.Brain.m_21957_(Brain.java:432) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.Brain.m_21865_(Brain.java:389) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.npc.Villager.m_8024_(Villager.java:209) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.Mob.m_6140_(Mob.java:768) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2548) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.AgeableMob.m_8107_(AgeableMob.java:128) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.npc.Villager.m_8119_(Villager.java:248) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:693) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[31Jul2025 04:38:41.374] [Server thread/ERROR] [net.minecraft.Util/]: onTrackingStart called during navigation iteration
-java.lang.IllegalStateException: onTrackingStart called during navigation iteration
-	at net.minecraft.server.level.ServerLevel$EntityCallbacks.m_141985_(ServerLevel.java:1514) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel$EntityCallbacks.m_141985_(ServerLevel.java:1488) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157575_(PersistentEntitySectionManager.java:136) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
-	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
-	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157543_(PersistentEntitySectionManager.java:179) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
-	at java.util.stream.LongPipeline$1$1.accept(LongPipeline.java:177) ~[?:?]
-	at java.util.PrimitiveIterator$OfLong.forEachRemaining(PrimitiveIterator.java:183) ~[?:?]
-	at java.util.Spliterators$LongIteratorSpliterator.forEachRemaining(Spliterators.java:2046) ~[?:?]
-	at java.util.Spliterator$OfLong.forEachRemaining(Spliterator.java:775) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157527_(PersistentEntitySectionManager.java:160) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_287207_(PersistentEntitySectionManager.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ChunkMap.m_287285_(ChunkMap.java:1307) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ChunkHolder.m_287043_(ChunkHolder.java:334) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:131) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_6522_(Level.java:187) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_6325_(Level.java:182) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_8055_(Level.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.navigation.GroundPathNavigation.m_7864_(GroundPathNavigation.java:43) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.navigation.PathNavigation.m_26569_(PathNavigation.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:965) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.block.DoorBlock.m_153165_(DoorBlock.java:214) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257204_(InteractWithDoor.java:76) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.behavior.declarative.BehaviorBuilder$1.m_257808_(BehaviorBuilder.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.behavior.OneShot.m_22554_(OneShot.java:20) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.Brain.m_21957_(Brain.java:432) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.Brain.m_21865_(Brain.java:389) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.npc.Villager.m_8024_(Villager.java:209) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.Mob.m_6140_(Mob.java:768) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2548) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.AgeableMob.m_8107_(AgeableMob.java:128) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.npc.Villager.m_8119_(Villager.java:248) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:693) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[31Jul2025 04:38:41.377] [Server thread/ERROR] [net.minecraft.Util/]: onTrackingStart called during navigation iteration
-java.lang.IllegalStateException: onTrackingStart called during navigation iteration
-	at net.minecraft.server.level.ServerLevel$EntityCallbacks.m_141985_(ServerLevel.java:1514) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel$EntityCallbacks.m_141985_(ServerLevel.java:1488) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157575_(PersistentEntitySectionManager.java:136) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
-	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
-	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157543_(PersistentEntitySectionManager.java:179) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
-	at java.util.stream.LongPipeline$1$1.accept(LongPipeline.java:177) ~[?:?]
-	at java.util.PrimitiveIterator$OfLong.forEachRemaining(PrimitiveIterator.java:183) ~[?:?]
-	at java.util.Spliterators$LongIteratorSpliterator.forEachRemaining(Spliterators.java:2046) ~[?:?]
-	at java.util.Spliterator$OfLong.forEachRemaining(Spliterator.java:775) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157527_(PersistentEntitySectionManager.java:160) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_287207_(PersistentEntitySectionManager.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ChunkMap.m_287285_(ChunkMap.java:1307) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ChunkHolder.m_287043_(ChunkHolder.java:334) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:131) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_6522_(Level.java:187) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_6325_(Level.java:182) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_8055_(Level.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.navigation.GroundPathNavigation.m_7864_(GroundPathNavigation.java:43) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.navigation.PathNavigation.m_26569_(PathNavigation.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:965) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.block.DoorBlock.m_153165_(DoorBlock.java:214) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257204_(InteractWithDoor.java:76) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.behavior.declarative.BehaviorBuilder$1.m_257808_(BehaviorBuilder.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.behavior.OneShot.m_22554_(OneShot.java:20) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.Brain.m_21957_(Brain.java:432) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.Brain.m_21865_(Brain.java:389) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.npc.Villager.m_8024_(Villager.java:209) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.Mob.m_6140_(Mob.java:768) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2548) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.AgeableMob.m_8107_(AgeableMob.java:128) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.npc.Villager.m_8119_(Villager.java:248) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:693) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[31Jul2025 04:38:41.382] [Server thread/ERROR] [net.minecraft.Util/]: onTrackingStart called during navigation iteration
-java.lang.IllegalStateException: onTrackingStart called during navigation iteration
-	at net.minecraft.server.level.ServerLevel$EntityCallbacks.m_141985_(ServerLevel.java:1514) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel$EntityCallbacks.m_141985_(ServerLevel.java:1488) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157575_(PersistentEntitySectionManager.java:136) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
-	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
-	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157543_(PersistentEntitySectionManager.java:179) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
-	at java.util.stream.LongPipeline$1$1.accept(LongPipeline.java:177) ~[?:?]
-	at java.util.PrimitiveIterator$OfLong.forEachRemaining(PrimitiveIterator.java:183) ~[?:?]
-	at java.util.Spliterators$LongIteratorSpliterator.forEachRemaining(Spliterators.java:2046) ~[?:?]
-	at java.util.Spliterator$OfLong.forEachRemaining(Spliterator.java:775) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157527_(PersistentEntitySectionManager.java:160) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_287207_(PersistentEntitySectionManager.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ChunkMap.m_287285_(ChunkMap.java:1307) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ChunkHolder.m_287043_(ChunkHolder.java:334) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:131) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_6522_(Level.java:187) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_6325_(Level.java:182) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_8055_(Level.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.navigation.GroundPathNavigation.m_7864_(GroundPathNavigation.java:43) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.navigation.PathNavigation.m_26569_(PathNavigation.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:965) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.block.DoorBlock.m_153165_(DoorBlock.java:214) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257204_(InteractWithDoor.java:76) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.behavior.declarative.BehaviorBuilder$1.m_257808_(BehaviorBuilder.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.behavior.OneShot.m_22554_(OneShot.java:20) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.Brain.m_21957_(Brain.java:432) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.ai.Brain.m_21865_(Brain.java:389) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.npc.Villager.m_8024_(Villager.java:209) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.Mob.m_6140_(Mob.java:768) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2548) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.AgeableMob.m_8107_(AgeableMob.java:128) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.entity.npc.Villager.m_8119_(Villager.java:248) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:693) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23155!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[31Jul2025 04:38:41.540] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2133ms or 42 ticks behind
-[31Jul2025 04:39:46.327] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1672, l='ServerLevel[world]', x=120.72, y=69.00, z=-459.37] died, message: 'Villager suffocated in a wall'
-[31Jul2025 04:45:12.147] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/3014, l='ServerLevel[world]', x=41.72, y=72.00, z=-520.37] died, message: 'Villager suffocated in a wall'
-[31Jul2025 04:45:47.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> 141 -171
-[31Jul2025 04:45:49.357] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[31Jul2025 04:45:52.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> y: 51
-[31Jul2025 04:51:11.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> 141 -171
-[31Jul2025 04:51:27.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd was shot by Skeleton
-[31Jul2025 04:51:36.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> 211 -237
-[31Jul2025 04:51:37.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> 211 -237
-[31Jul2025 04:51:38.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> 211 -237
-[31Jul2025 04:51:38.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> 211 -237
-[31Jul2025 04:51:39.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> 211 -237
-[31Jul2025 04:51:40.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> 211 -237
-[31Jul2025 04:52:48.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> 211 -237
-[31Jul2025 05:07:18.227] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/9636, l='ServerLevel[world]', x=34.30, y=72.00, z=-511.30] died, message: 'Nitwit was slain by Zombie'
-[31Jul2025 05:11:14.895] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/9546, l='ServerLevel[world]', x=159.70, y=82.94, z=-491.42] died, message: 'Villager was slain by Zombie'
-[31Jul2025 05:11:15.288] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/9548, l='ServerLevel[world]', x=78.60, y=83.94, z=-461.95] died, message: 'Villager was slain by Zombie'
-[31Jul2025 05:11:41.303] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=96, y=83, z=-479} BlockPos{x=97, y=83, z=-479}
-[31Jul2025 05:13:15.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <titiiiixd> dddsadsa
-[31Jul2025 05:18:03.783] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/9747, l='ServerLevel[world]', x=106.85, y=86.00, z=-503.85] died, message: 'Villager was slain by Zombie'
-[31Jul2025 05:20:33.976] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/9647, l='ServerLevel[world]', x=103.50, y=85.94, z=-503.30] died, message: 'Farmer was slain by Zombie'
-[31Jul2025 05:25:04.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Ice Bucket Challenge]
-[31Jul2025 05:40:09.646] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/9445, l='ServerLevel[world]', x=124.18, y=68.00, z=-455.49] died, message: 'Villager was slain by Zombie'
-[31Jul2025 05:40:14.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [What a Deal!]
-[31Jul2025 05:40:56.030] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/9643, l='ServerLevel[world]', x=103.51, y=85.94, z=-503.70] died, message: 'Villager was slain by Zombie'
-[31Jul2025 05:41:00.736] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Shepherd'/9550, l='ServerLevel[world]', x=106.70, y=86.00, z=-503.30] died, message: 'Shepherd was slain by Zombie'
-[31Jul2025 05:41:50.630] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cartographer'/9532, l='ServerLevel[world]', x=122.01, y=85.94, z=-503.13] died, message: 'Cartographer was slain by Zombie'
-[31Jul2025 05:44:08.558] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/9442, l='ServerLevel[world]', x=143.27, y=36.00, z=-473.11] died, message: 'Villager was slain by Zombie'
-[31Jul2025 05:49:04.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [What a Deal!]
-[31Jul2025 05:56:33.694] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/9559, l='ServerLevel[world]', x=113.96, y=85.00, z=-499.36] died, message: 'Toolsmith was slain by titiiiixd'
-[31Jul2025 06:01:05.179] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: titiiiixd lost connection: Disconnected
-[31Jul2025 06:01:05.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd left the game
-[31Jul2025 06:01:16.781] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BloodSoss lost connection: Disconnected
-[31Jul2025 06:01:16.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss left the game
-[31Jul2025 06:02:10.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[31Jul2025 06:02:10.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[31Jul2025 06:02:10.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[31Jul2025 06:02:11.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[31Jul2025 06:02:12.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
-[31Jul2025 06:02:12.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mofus_better_end_:broken_constellation
-[31Jul2025 06:02:12.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
-[31Jul2025 06:02:12.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[31Jul2025 06:02:12.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[31Jul2025 06:02:12.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[31Jul2025 06:02:12.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
-[31Jul2025 06:02:12.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (broken_constellation): All chunks are saved
-[31Jul2025 06:02:12.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[31Jul2025 06:02:12.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[31Jul2025 06:02:12.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[31Jul2025 06:02:12.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[31Jul2025 17:02:43.004] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2322 advancements
+[31Jul2025 17:02:43.019] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[31Jul2025 17:02:45.292] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[31Jul2025 17:02:45.293] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[31Jul2025 17:02:45.293] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[31Jul2025 17:02:45.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[31Jul2025 17:02:45.455] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[31Jul2025 17:02:45.499] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[31Jul2025 17:02:45.644] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[31Jul2025 17:02:45.646] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[31Jul2025 17:02:45.647] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[31Jul2025 17:02:45.648] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[31Jul2025 17:02:46.001] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[31Jul2025 17:02:46.002] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[31Jul2025 17:02:46.005] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[31Jul2025 17:02:46.006] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[31Jul2025 17:02:46.008] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[31Jul2025 17:02:46.016] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[31Jul2025 17:02:46.016] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[31Jul2025 17:02:46.017] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[31Jul2025 17:02:46.017] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[31Jul2025 17:02:46.018] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[31Jul2025 17:02:46.060] [Server thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[31Jul2025 17:02:46.063] [Server thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[31Jul2025 17:02:46.072] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[31Jul2025 17:02:46.153] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[31Jul2025 17:02:46.161] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
+[31Jul2025 17:02:46.165] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
+[31Jul2025 17:02:46.172] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[31Jul2025 17:03:17.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[31Jul2025 17:03:29.370] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.382] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.394] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.395] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.395] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.398] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.401] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.406] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.411] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.414] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.416] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.421] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.421] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.422] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.422] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.426] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.428] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.429] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.432] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.435] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.437] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.438] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.439] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.442] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:29.828] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:30.327] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:30.906] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Jul2025 17:03:31.479] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 13653 ms
+[31Jul2025 17:03:31.483] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (45.788s)! For help, type "help"
+[31Jul2025 17:03:31.576] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[31Jul2025 17:03:31.587] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[31Jul2025 17:03:40.128] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BloodSoss[/127.39.20.82:44515] logged in with entity id 138 at (360.0597620406405, -39.82324072493576, -431.27503727155005)
+[31Jul2025 17:03:40.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss joined the game
+[31Jul2025 17:03:44.270] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4273ms or 85 ticks behind
+[31Jul2025 17:05:37.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[31Jul2025 17:05:37.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[31Jul2025 17:05:37.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[31Jul2025 17:05:38.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[31Jul2025 17:05:39.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[31Jul2025 17:05:39.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[31Jul2025 17:05:39.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[31Jul2025 17:05:39.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mofus_better_end_:broken_constellation
+[31Jul2025 17:05:39.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[31Jul2025 17:05:39.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[31Jul2025 17:05:39.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[31Jul2025 17:05:39.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[31Jul2025 17:05:39.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[31Jul2025 17:05:39.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (broken_constellation): All chunks are saved
+[31Jul2025 17:05:39.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[31Jul2025 17:05:39.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
