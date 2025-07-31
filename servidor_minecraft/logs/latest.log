@@ -161,3 +161,5 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [31Jul2025 18:51:35.096] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3376ms or 67 ticks behind
 [31Jul2025 18:51:55.034] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4964ms or 99 ticks behind
 [31Jul2025 18:52:12.585] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2264ms or 45 ticks behind
+[31Jul2025 19:09:19.997] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BloodSoss lost connection: Disconnected
+[31Jul2025 19:09:19.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss left the game
