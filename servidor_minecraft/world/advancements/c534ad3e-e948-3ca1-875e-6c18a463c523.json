@@ -265,12 +265,15 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2025-08-01 00:32:13 +0000",
       "minecraft:taiga": "2025-07-31 20:44:55 +0000",
+      "minecraft:windswept_hills": "2025-08-01 03:21:09 +0000",
       "minecraft:dark_forest": "2025-08-01 00:48:02 +0000",
       "minecraft:river": "2025-08-01 00:31:59 +0000",
       "minecraft:dripstone_caves": "2025-07-31 20:59:14 +0000",
       "minecraft:forest": "2025-07-31 20:46:07 +0000",
       "minecraft:lush_caves": "2025-07-31 21:11:04 +0000",
+      "minecraft:windswept_forest": "2025-08-01 03:15:12 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-08-01 00:33:49 +0000",
+      "minecraft:windswept_savanna": "2025-08-01 03:15:58 +0000",
       "minecraft:meadow": "2025-07-31 21:04:32 +0000",
       "minecraft:plains": "2025-08-01 00:24:08 +0000"
     },
@@ -905,7 +908,10 @@
     "criteria": {
       "minecraft:skeleton": "2025-07-31 21:03:16 +0000",
       "minecraft:spider": "2025-07-31 21:19:07 +0000",
+      "minecraft:piglin_brute": "2025-08-01 03:37:37 +0000",
+      "minecraft:witch": "2025-08-01 02:55:20 +0000",
       "minecraft:cave_spider": "2025-07-31 21:06:48 +0000",
+      "minecraft:piglin": "2025-08-01 03:38:30 +0000",
       "minecraft:zombie": "2025-07-31 21:03:22 +0000"
     },
     "done": false
@@ -2185,6 +2191,72 @@
   "graveyard:graveyard/craft_coffin": {
     "criteria": {
       "coffin": "2025-08-01 02:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-08-01 02:55:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-08-01 02:55:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-08-01 03:20:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2025-08-01 03:35:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-08-01 03:35:42 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_mushroom_village": {
+    "criteria": {
+      "location0": "2025-08-01 03:35:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2025-08-01 03:31:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-08-01 03:35:42 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2025-08-01 03:45:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2025-08-01 03:31:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2025-08-01 03:31:11 +0000"
     },
     "done": true
   },
