@@ -2430,3 +2430,48 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [01Aug2025 16:24:23.366] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-202.61, y=5.00, z=-88.70]
 [01Aug2025 16:24:40.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
 [01Aug2025 16:25:17.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Survival Mode]
+[01Aug2025 16:25:55.371] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Aug2025 16:25:55.382] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Aug2025 16:26:01.058] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-199.70, y=4.00, z=-93.48], dimensionLocationPath overworld
+[01Aug2025 16:26:01.058] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-199.70, y=4.00, z=-93.48] in list []
+[01Aug2025 16:26:01.407] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-199.70, y=4.00, z=-93.48]
+[01Aug2025 16:30:55.365] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Aug2025 16:30:55.376] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Aug2025 16:35:55.379] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Aug2025 16:35:55.395] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Aug2025 16:36:09.644] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ItemEntity['Torch'/25089, l='ServerLevel[world]', x=-202.61, y=4.48, z=-97.42], dimensionLocationPath overworld
+[01Aug2025 16:36:09.644] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ItemEntity['Torch'/25089, l='ServerLevel[world]', x=-202.61, y=4.48, z=-97.42] in list []
+[01Aug2025 16:36:10.144] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Dynamic Lights killing off LightSource on dead Entity: ItemEntity['Torch'/25089, l='ServerLevel[world]', x=-202.88, y=4.24, z=-97.88, removed=DISCARDED]
+[01Aug2025 16:36:11.044] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ItemEntity['Torch'/25097, l='ServerLevel[world]', x=-196.54, y=4.61, z=-97.46], dimensionLocationPath overworld
+[01Aug2025 16:36:11.044] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ItemEntity['Torch'/25097, l='ServerLevel[world]', x=-196.54, y=4.61, z=-97.46] in list []
+[01Aug2025 16:36:11.544] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Dynamic Lights killing off LightSource on dead Entity: ItemEntity['Torch'/25097, l='ServerLevel[world]', x=-196.54, y=4.37, z=-97.50, removed=DISCARDED]
+[01Aug2025 16:36:14.407] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-199.42, y=4.00, z=-90.87], dimensionLocationPath overworld
+[01Aug2025 16:36:14.407] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-199.42, y=4.00, z=-90.87] in list []
+[01Aug2025 16:36:15.554] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-200.42, y=4.00, z=-92.34]
+[01Aug2025 16:36:26.558] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-201.61, y=4.00, z=-92.70], dimensionLocationPath overworld
+[01Aug2025 16:36:26.559] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-201.61, y=4.00, z=-92.70] in list []
+[01Aug2025 16:36:28.454] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-202.60, y=4.00, z=-96.52]
+[01Aug2025 16:36:30.855] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-202.60, y=4.00, z=-96.52], dimensionLocationPath overworld
+[01Aug2025 16:36:30.855] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-202.60, y=4.00, z=-96.52] in list []
+[01Aug2025 16:36:31.704] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-202.60, y=4.00, z=-96.52]
+[01Aug2025 16:36:32.455] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-202.60, y=4.00, z=-96.52], dimensionLocationPath overworld
+[01Aug2025 16:36:32.455] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-202.60, y=4.00, z=-96.52] in list []
+[01Aug2025 16:36:36.656] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-199.89, y=4.00, z=-90.76]
+[01Aug2025 16:40:09.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 16:40:10.259] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-197.91, y=4.00, z=-92.70], dimensionLocationPath overworld
+[01Aug2025 16:40:10.259] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-197.91, y=4.00, z=-92.70] in list []
+[01Aug2025 16:40:18.503] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-194.07, y=8.00, z=-86.30]
+[01Aug2025 16:40:23.804] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-192.30, y=8.00, z=-86.13], dimensionLocationPath overworld
+[01Aug2025 16:40:23.804] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-192.30, y=8.00, z=-86.13] in list []
+[01Aug2025 16:40:50.558] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-192.70, y=8.23, z=-85.84]
+[01Aug2025 16:40:55.360] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Aug2025 16:40:55.369] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Aug2025 16:41:23.908] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-192.27, y=9.00, z=-90.98], dimensionLocationPath overworld
+[01Aug2025 16:41:23.908] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-192.27, y=9.00, z=-90.98] in list []
+[01Aug2025 16:41:25.406] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['BloodSoss'/303, l='ServerLevel[world]', x=-192.39, y=9.00, z=-88.31]
+[01Aug2025 16:42:50.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Spectator Mode]
+[01Aug2025 16:43:08.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 16:43:35.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Spectator Mode]
+[01Aug2025 16:43:36.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Survival Mode]
+[01Aug2025 16:45:05.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Spectator Mode]
+[01Aug2025 16:45:08.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
