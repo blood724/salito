@@ -169,3 +169,5 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [01Aug2025 14:46:27.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Survival Mode]
 [01Aug2025 14:48:13.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
 [01Aug2025 14:48:41.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Survival Mode]
+[01Aug2025 15:39:28.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Wait those were just babies??]
+[01Aug2025 15:42:14.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]

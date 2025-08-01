@@ -2965,6 +2965,12 @@
     },
     "done": true
   },
+  "mofus_better_end_:greater_endermite_advancement": {
+    "criteria": {
+      "greater_endermite_advancement_0": "2025-08-01 15:39:28 +0000"
+    },
+    "done": true
+  },
   "aquaculture:recipes/tools/neptunium_fillet_knife": {
     "criteria": {
       "has_items": "2025-08-01 14:48:21 +0000"
