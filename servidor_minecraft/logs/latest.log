@@ -170,3 +170,22 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [01Aug2025 23:07:08.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Successfully filled 192 block(s)]
 [01Aug2025 23:19:50.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Successfully filled 107 block(s)]
 [01Aug2025 23:20:41.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Successfully filled 107 block(s)]
+[01Aug2025 23:22:01.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Survival Mode]
+[01Aug2025 23:22:02.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 23:24:57.741] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: titiiiixd[/127.120.157.170:32799] logged in with entity id 13756 at (-435.916753105378, 80.0, -429.27455751688996)
+[01Aug2025 23:24:57.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd joined the game
+[01Aug2025 23:25:02.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Survival Mode]
+[01Aug2025 23:25:27.748] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: titiiiixd lost connection: Timed out
+[01Aug2025 23:25:27.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd left the game
+[01Aug2025 23:25:27.819] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Aug2025 23:26:26.054] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: titiiiixd[/127.120.157.170:41703] logged in with entity id 14285 at (-435.916753105378, 80.0, -429.27455751688996)
+[01Aug2025 23:26:26.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd joined the game
+[01Aug2025 23:26:56.194] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: titiiiixd lost connection: Timed out
+[01Aug2025 23:26:56.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd left the game
+[01Aug2025 23:27:31.160] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: titiiiixd[/127.120.157.170:43737] logged in with entity id 14724 at (-435.916753105378, 80.0, -429.27455751688996)
+[01Aug2025 23:27:31.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd joined the game
+[01Aug2025 23:27:34.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has reached the goal [Off you go]
+[01Aug2025 23:27:34.598] [Server thread/ERROR] [net.minecraft.world.entity.ai.village.poi.PoiSection/]: POI data mismatch: never registered at BlockPos{x=-244, y=66, z=-141}
+[01Aug2025 23:27:46.403] [Server thread/ERROR] [net.minecraft.world.entity.ai.village.poi.PoiSection/]: POI data mismatch: never registered at BlockPos{x=-250, y=66, z=-140}
+[01Aug2025 23:28:57.068] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: titiiiixd lost connection: Disconnected
+[01Aug2025 23:28:57.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd left the game
