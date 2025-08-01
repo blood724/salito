@@ -189,3 +189,12 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [01Aug2025 23:27:46.403] [Server thread/ERROR] [net.minecraft.world.entity.ai.village.poi.PoiSection/]: POI data mismatch: never registered at BlockPos{x=-250, y=66, z=-140}
 [01Aug2025 23:28:57.068] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: titiiiixd lost connection: Disconnected
 [01Aug2025 23:28:57.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd left the game
+[01Aug2025 23:33:10.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Fetch Me Their Souls!]
+[01Aug2025 23:35:49.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Gravedigger]
+[01Aug2025 23:37:31.651] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: titiiiixd[/127.120.157.170:43285] logged in with entity id 17047 at (-425.6325107579002, 82.0, -431.9816720246046)
+[01Aug2025 23:37:31.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd joined the game
+[01Aug2025 23:38:54.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <titiiiixd> -438 -429
+[01Aug2025 23:40:17.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd was burnt to a crisp whilst fighting BloodSoss
+[01Aug2025 23:40:26.193] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[01Aug2025 23:51:18.445] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BloodSoss lost connection: Disconnected
+[01Aug2025 23:51:18.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss left the game
