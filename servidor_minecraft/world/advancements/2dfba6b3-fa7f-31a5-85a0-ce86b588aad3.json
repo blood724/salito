@@ -2767,69 +2767,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blast_furnace": {
-    "criteria": {
-      "has_smooth_stone": "2025-08-01 04:58:35 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/fiddlehead": {
-    "criteria": {
-      "fiddlehead": "2025-08-01 05:18:51 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/discover_dinosaur": {
-    "criteria": {
-      "killed_by_tremorsaurus": "2025-08-01 04:27:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
-    "criteria": {
-      "has_gold_block": "2025-08-01 04:49:12 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/tree_star": {
-    "criteria": {
-      "tree_star": "2025-08-01 05:19:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oxidized_cut_copper": {
-    "criteria": {
-      "has_oxidized_copper": "2025-08-01 04:58:42 +0000"
-    },
-    "done": true
-  },
   "graveyard:graveyard/root": {
     "criteria": {
       "grave_01": "2025-08-01 04:16:56 +0000"
     },
     "done": true
   },
-  "netherexp:recipes/ivy/weeping_ivy": {
+  "alexscaves:alexscaves/discover_primordial_caves": {
     "criteria": {
-      "has_item": "2025-08-01 05:24:44 +0000"
+      "discover": "2025-08-01 04:20:11 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oxidized_cut_copper_from_oxidized_copper_stonecutting": {
+  "alexscaves:alexscaves/limestone": {
     "criteria": {
-      "has_oxidized_copper": "2025-08-01 04:58:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/lightning_rod": {
-    "criteria": {
-      "has_copper_ingot": "2025-08-01 04:58:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
-    "criteria": {
-      "has_dandelion": "2025-08-01 04:51:56 +0000"
+      "limestone": "2025-08-01 04:21:16 +0000"
     },
     "done": true
   },
@@ -2839,9 +2791,93 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_copper_stonecutting": {
+  "alexscaves:alexscaves/discover_dinosaur": {
     "criteria": {
-      "has_oxidized_copper": "2025-08-01 04:58:42 +0000"
+      "killed_by_tremorsaurus": "2025-08-01 04:27:45 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_big_dinosaur": {
+    "criteria": {
+      "killed_tremorsaurus": "2025-08-01 04:28:17 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_book": {
+    "criteria": {
+      "cave_book": "2025-08-01 04:34:22 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/extinction_spear": {
+    "criteria": {
+      "dreadbow": "2025-08-01 04:36:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-08-01 04:41:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-08-01 04:41:05 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_codex": {
+    "criteria": {
+      "cave_codex": "2025-08-01 04:43:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-08-01 04:49:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-08-01 04:51:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2025-08-01 04:52:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2025-08-01 04:58:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2025-08-01 04:58:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2025-08-01 04:58:22 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:recipes/redstone/copper_button": {
+    "criteria": {
+      "has_copper_ingot": "2025-08-01 04:58:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-08-01 04:58:35 +0000"
     },
     "done": true
   },
@@ -2857,9 +2893,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/copper_block": {
+  "minecraft:recipes/building_blocks/oxidized_cut_copper": {
     "criteria": {
-      "has_copper_ingot": "2025-08-01 04:58:22 +0000"
+      "has_oxidized_copper": "2025-08-01 04:58:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2025-08-01 04:58:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2025-08-01 04:58:42 +0000"
     },
     "done": true
   },
@@ -2869,51 +2917,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/brush": {
-    "criteria": {
-      "has_copper_ingot": "2025-08-01 04:58:22 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/discover_primordial_caves": {
-    "criteria": {
-      "discover": "2025-08-01 04:20:11 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_oxidized_copper_from_honeycomb": {
     "criteria": {
       "has_oxidized_copper": "2025-08-01 04:58:42 +0000"
-    },
-    "done": true
-  },
-  "friendsandfoes:recipes/redstone/copper_button": {
-    "criteria": {
-      "has_copper_ingot": "2025-08-01 04:58:22 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/cave_book": {
-    "criteria": {
-      "cave_book": "2025-08-01 04:34:22 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/cave_codex": {
-    "criteria": {
-      "cave_codex": "2025-08-01 04:43:20 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/limestone": {
-    "criteria": {
-      "limestone": "2025-08-01 04:21:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_iron_block": "2025-08-01 04:41:05 +0000"
     },
     "done": true
   },
@@ -2923,27 +2929,21 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/extinction_spear": {
+  "alexscaves:alexscaves/fiddlehead": {
     "criteria": {
-      "dreadbow": "2025-08-01 04:36:12 +0000"
+      "fiddlehead": "2025-08-01 05:18:51 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/anvil": {
+  "alexscaves:alexscaves/tree_star": {
     "criteria": {
-      "has_iron_block": "2025-08-01 04:41:05 +0000"
+      "tree_star": "2025-08-01 05:19:45 +0000"
     },
     "done": true
   },
-  "alexscaves:alexscaves/defeat_big_dinosaur": {
+  "netherexp:recipes/ivy/weeping_ivy": {
     "criteria": {
-      "killed_tremorsaurus": "2025-08-01 04:28:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pink_dye_from_peony": {
-    "criteria": {
-      "has_peony": "2025-08-01 04:52:10 +0000"
+      "has_item": "2025-08-01 05:24:44 +0000"
     },
     "done": true
   },
