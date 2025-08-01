@@ -165,3 +165,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [01Aug2025 14:26:15.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss joined the game
 [01Aug2025 14:26:18.482] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3390ms or 67 ticks behind
 [01Aug2025 14:32:01.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [What a Deal!]
+[01Aug2025 14:46:07.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 14:46:27.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Survival Mode]
+[01Aug2025 14:48:13.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 14:48:41.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Survival Mode]
