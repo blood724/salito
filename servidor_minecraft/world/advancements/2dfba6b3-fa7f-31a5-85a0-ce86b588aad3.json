@@ -693,7 +693,8 @@
       "bread": "2025-07-31 21:23:38 +0000",
       "golden_apple": "2025-07-31 21:34:30 +0000",
       "rotten_flesh": "2025-07-31 20:33:27 +0000",
-      "glow_berries": "2025-07-31 21:11:37 +0000"
+      "glow_berries": "2025-07-31 21:11:37 +0000",
+      "carrot": "2025-08-01 22:58:01 +0000"
     },
     "done": false
   },
@@ -2947,33 +2948,105 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-08-01 14:32:01 +0000"
+    },
+    "done": true
+  },
   "aquaculture:recipes/combat/neptunium_helmet": {
     "criteria": {
       "has_items": "2025-08-01 14:48:21 +0000"
     },
     "done": true
   },
-  "aquaculture:recipes/aquaculture/tackle_box": {
+  "aquaculture:recipes/combat/neptunium_leggings": {
     "criteria": {
-      "has_items": "2025-08-01 15:58:13 +0000"
+      "has_items": "2025-08-01 14:48:21 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp_from_smelting": {
+  "aquaculture:recipes/combat/neptunium_sword": {
     "criteria": {
-      "has_kelp": "2025-08-01 15:58:13 +0000"
+      "has_items": "2025-08-01 14:48:21 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_fillet_knife": {
+    "criteria": {
+      "has_items": "2025-08-01 14:48:21 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_bow": {
+    "criteria": {
+      "has_items": "2025-08-01 14:48:21 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_fishing_rod": {
+    "criteria": {
+      "has_items": "2025-08-01 14:48:21 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_hoe": {
+    "criteria": {
+      "has_items": "2025-08-01 14:48:21 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_shovel": {
+    "criteria": {
+      "has_items": "2025-08-01 14:48:21 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/neptunes_bounty": {
+    "criteria": {
+      "has_items": "2025-08-01 14:48:21 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_pickaxe": {
+    "criteria": {
+      "has_items": "2025-08-01 14:48:21 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_chestplate": {
+    "criteria": {
+      "has_items": "2025-08-01 14:48:21 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_boots": {
+    "criteria": {
+      "has_items": "2025-08-01 14:48:21 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_axe": {
+    "criteria": {
+      "has_items": "2025-08-01 14:48:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-08-01 14:52:26 +0000"
+    },
+    "done": true
+  },
+  "mofus_better_end_:greater_endermite_advancement": {
+    "criteria": {
+      "greater_endermite_advancement_0": "2025-08-01 15:39:28 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2025-08-01 15:53:02 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/combat/neptunium_leggings": {
-    "criteria": {
-      "has_items": "2025-08-01 14:48:21 +0000"
     },
     "done": true
   },
@@ -2989,45 +3062,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp": "2025-08-01 15:58:13 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/combat/neptunium_sword": {
-    "criteria": {
-      "has_items": "2025-08-01 14:48:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/blue_stained_glass": {
     "criteria": {
       "has_glass": "2025-08-01 15:53:02 +0000"
     },
     "done": true
   },
-  "mofus_better_end_:greater_endermite_advancement": {
-    "criteria": {
-      "greater_endermite_advancement_0": "2025-08-01 15:39:28 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/tools/neptunium_fillet_knife": {
-    "criteria": {
-      "has_items": "2025-08-01 14:48:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/orange_stained_glass": {
     "criteria": {
       "has_glass": "2025-08-01 15:53:02 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/combat/neptunium_bow": {
-    "criteria": {
-      "has_items": "2025-08-01 14:48:21 +0000"
     },
     "done": true
   },
@@ -3055,12 +3098,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/trade": {
-    "criteria": {
-      "traded": "2025-08-01 14:32:01 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2025-08-01 15:53:02 +0000"
@@ -3073,39 +3110,15 @@
     },
     "done": true
   },
-  "aquaculture:recipes/tools/neptunium_fishing_rod": {
-    "criteria": {
-      "has_items": "2025-08-01 14:48:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2025-08-01 15:53:02 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp_from_smoking": {
-    "criteria": {
-      "has_kelp": "2025-08-01 15:58:13 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/tools/neptunium_hoe": {
-    "criteria": {
-      "has_items": "2025-08-01 14:48:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2025-08-01 15:53:02 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/tools/neptunium_shovel": {
-    "criteria": {
-      "has_items": "2025-08-01 14:48:21 +0000"
     },
     "done": true
   },
@@ -3121,21 +3134,9 @@
     },
     "done": true
   },
-  "aquaculture:recipes/aquaculture/neptunes_bounty": {
-    "criteria": {
-      "has_items": "2025-08-01 14:48:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2025-08-01 15:53:02 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/tools/neptunium_pickaxe": {
-    "criteria": {
-      "has_items": "2025-08-01 14:48:21 +0000"
     },
     "done": true
   },
@@ -3145,33 +3146,261 @@
     },
     "done": true
   },
-  "aquaculture:recipes/combat/neptunium_chestplate": {
-    "criteria": {
-      "has_items": "2025-08-01 14:48:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2025-08-01 15:53:02 +0000"
     },
     "done": true
   },
-  "aquaculture:recipes/combat/neptunium_boots": {
+  "aquaculture:recipes/aquaculture/tackle_box": {
     "criteria": {
-      "has_items": "2025-08-01 14:48:21 +0000"
+      "has_items": "2025-08-01 15:58:13 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/grindstone": {
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
     "criteria": {
-      "has_stone_slab": "2025-08-01 14:52:26 +0000"
+      "has_kelp": "2025-08-01 15:58:13 +0000"
     },
     "done": true
   },
-  "aquaculture:recipes/tools/neptunium_axe": {
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
     "criteria": {
-      "has_items": "2025-08-01 14:48:21 +0000"
+      "has_kelp": "2025-08-01 15:58:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-08-01 15:58:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2025-08-01 22:56:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-08-01 23:00:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-08-01 22:52:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-08-01 22:52:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2025-08-01 22:56:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-08-01 22:52:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-08-01 22:52:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-08-01 23:00:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2025-08-01 23:00:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-08-01 22:56:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2025-08-01 22:53:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-08-01 22:56:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-08-01 22:52:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2025-08-01 22:53:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-08-01 23:00:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-08-01 22:53:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-08-01 22:52:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2025-08-01 23:00:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2025-08-01 23:00:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2025-08-01 23:00:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2025-08-01 23:00:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-08-01 23:00:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-08-01 22:52:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-08-01 23:00:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-08-01 23:00:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-08-01 22:52:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-08-01 22:52:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-08-01 22:51:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2025-08-01 22:56:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-08-01 23:00:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-08-01 22:52:49 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2025-08-01 22:56:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-08-01 22:52:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-08-01 22:52:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-08-01 23:00:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-08-01 22:56:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-08-01 22:52:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2025-08-01 23:00:31 +0000"
     },
     "done": true
   },
