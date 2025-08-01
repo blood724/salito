@@ -1,179 +1,134 @@
-[31Jul2025 20:40:04.842] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.4, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[31Jul2025 20:40:04.848] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[31Jul2025 20:40:06.230] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[31Jul2025 20:40:06.393] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/salito/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[31Jul2025 20:40:06.894] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.4/fmlcore-1.20.1-47.4.4.jar is missing mods.toml file
-[31Jul2025 20:40:06.914] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.4/javafmllanguage-1.20.1-47.4.4.jar is missing mods.toml file
-[31Jul2025 20:40:06.918] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.4/lowcodelanguage-1.20.1-47.4.4.jar is missing mods.toml file
-[31Jul2025 20:40:06.924] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/salito/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.4/mclanguage-1.20.1-47.4.4.jar is missing mods.toml file
-[31Jul2025 20:40:07.298] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[31Jul2025 20:40:10.960] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[31Jul2025 20:40:11.218] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[31Jul2025 20:40:11.222] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[31Jul2025 20:40:11.260] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[31Jul2025 20:40:11.487] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 78 options available, 0 override(s) found
-[31Jul2025 20:40:13.836] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[31Jul2025 20:40:13.837] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
-[31Jul2025 20:40:14.663] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[31Jul2025 20:40:25.700] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
-
-[31Jul2025 20:40:27.614] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
-[31Jul2025 20:40:27.756] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[31Jul2025 20:40:27.787] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[31Jul2025 20:40:29.092] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[31Jul2025 20:40:29.116] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.4, for MC 1.20.1 with MCP 20230612.114412
-[31Jul2025 20:40:29.117] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.4 Initialized
-[31Jul2025 20:40:29.231] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
-[31Jul2025 20:40:29.236] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
-[31Jul2025 20:40:33.559] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[31Jul2025 20:40:33.783] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
-[31Jul2025 20:40:34.352] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[31Jul2025 20:40:34.786] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[31Jul2025 20:40:34.796] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[31Jul2025 20:40:34.839] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
-[31Jul2025 20:40:34.845] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
-[31Jul2025 20:40:34.846] [main/INFO] [citadel/]: Added 1 modded biome surface rule types via terrablender
-[31Jul2025 20:40:35.071] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.10 Target: 1.20.1-1.4.15
-[31Jul2025 20:40:35.074] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Starting version check at https://api.modrinth.com/updates/MCnBYP0b/forge_updates.json
-[31Jul2025 20:40:35.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Found status: OUTDATED Current: 1-v1.1.0c Target: 1.1.0c+mod
-[31Jul2025 20:40:35.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[31Jul2025 20:40:35.613] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.4.4 Target: null
-[31Jul2025 20:40:38.705] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[31Jul2025 20:40:39.030] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-fallingtree (version 4.3.4 -> MISSING)
-Things may not work well.
-[31Jul2025 20:40:39.211] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: dynamiclights:lit_air Expected: 1587 Got: 2139
-[31Jul2025 20:40:39.212] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: dynamiclights:lit_water Expected: 1588 Got: 2140
-[31Jul2025 20:40:39.212] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: dynamiclights:lit_cave_air Expected: 1589 Got: 2141
-[31Jul2025 20:40:41.403] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/salito/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/assets/.mcassetsroot' uses unexpected schema
-[31Jul2025 20:40:41.407] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/salito/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/data/.mcassetsroot' uses unexpected schema
-[31Jul2025 20:40:41.664] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:fallingtree
-[31Jul2025 20:40:43.310] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
-[31Jul2025 20:40:46.468] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[31Jul2025 20:40:48.934] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[31Jul2025 20:40:48.935] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[31Jul2025 20:40:48.936] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/crown_squid}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[31Jul2025 20:40:49.070] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mofus_better_end_:end_engine_recipe
-com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod_element'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.4-universal.jar%23166!/:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.4-universal.jar%23166!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
-	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.4-universal.jar%23166!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.4.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.4.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.4.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[31Jul2025 20:40:49.089] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[31Jul2025 20:40:49.090] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
-	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 6 more
-[31Jul2025 20:40:49.380] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2322 advancements
-[31Jul2025 20:40:49.396] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
-[31Jul2025 20:40:51.634] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[31Jul2025 20:40:51.636] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[31Jul2025 20:40:51.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[31Jul2025 20:40:51.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[31Jul2025 20:40:52.085] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[31Jul2025 20:40:52.280] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[31Jul2025 20:40:52.476] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[31Jul2025 20:40:52.477] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[31Jul2025 20:40:52.477] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[31Jul2025 20:40:52.478] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[31Jul2025 20:40:52.849] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[31Jul2025 20:40:52.851] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
-[31Jul2025 20:40:52.852] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
-[31Jul2025 20:40:52.853] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[31Jul2025 20:40:52.854] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
-[31Jul2025 20:40:52.860] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[31Jul2025 20:40:52.861] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
-[31Jul2025 20:40:52.863] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
-[31Jul2025 20:40:52.864] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[31Jul2025 20:40:52.866] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
-[31Jul2025 20:40:52.908] [Server thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[31Jul2025 20:40:52.910] [Server thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[31Jul2025 20:40:52.920] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[31Jul2025 20:40:53.032] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[31Jul2025 20:40:53.038] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
-[31Jul2025 20:40:53.040] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
-[31Jul2025 20:40:53.044] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[31Jul2025 20:41:27.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[31Jul2025 20:41:35.222] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.256] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.279] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.330] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.371] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.406] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.448] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.472] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.482] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.536] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.570] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.600] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.718] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.770] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.810] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.869] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.874] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:35.889] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:36.105] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:36.822] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:37.098] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:37.598] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:38.100] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:38.614] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jul2025 20:41:39.361] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 12264 ms
-[31Jul2025 20:41:39.363] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (46.860s)! For help, type "help"
-[31Jul2025 20:41:39.422] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[31Jul2025 20:41:39.430] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[31Jul2025 20:41:42.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[31Jul2025 20:41:42.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[31Jul2025 20:41:42.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[31Jul2025 20:41:46.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[31Jul2025 20:41:48.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
-[31Jul2025 20:41:48.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[31Jul2025 20:41:48.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mofus_better_end_:broken_constellation
-[31Jul2025 20:41:48.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
-[31Jul2025 20:41:48.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[31Jul2025 20:41:49.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[31Jul2025 20:41:49.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[31Jul2025 20:41:49.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[31Jul2025 20:41:49.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (broken_constellation): All chunks are saved
-[31Jul2025 20:41:49.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
-[31Jul2025 20:41:49.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[31Jul2025 20:41:49.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Aug2025 00:12:57.198] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BloodSoss[/127.39.20.82:59233] logged in with entity id 27022 at (65.74047957713049, -2.0, 334.833566401313)
+[01Aug2025 00:12:57.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss joined the game
+[01Aug2025 00:13:19.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made BloodSoss a server operator
+[01Aug2025 00:13:25.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 00:14:45.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Spectator Mode]
+[01Aug2025 00:14:55.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 00:15:36.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Spectator Mode]
+[01Aug2025 00:15:39.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Survival Mode]
+[01Aug2025 00:15:54.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Cover Me with Diamonds]
+[01Aug2025 00:16:50.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 00:17:14.641] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: titiiiixd[/127.120.157.170:58245] logged in with entity id 27895 at (118.30000001192093, 46.0, 82.51795257486735)
+[01Aug2025 00:17:14.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd joined the game
+[01Aug2025 00:17:19.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Survival Mode]
+[01Aug2025 00:19:30.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Best Friends Forever]
+[01Aug2025 00:20:37.586] [Worker-Main-212/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-413, y=-25, z=446}
+[01Aug2025 00:21:40.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd fell from a high place
+[01Aug2025 00:22:20.325] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[01Aug2025 00:24:12.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Ice Bucket Challenge]
+[01Aug2025 00:24:15.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd was slain by Zombie
+[01Aug2025 00:24:36.197] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=32, y=69, z=63}
+[01Aug2025 00:24:36.461] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=32, y=68, z=63}
+[01Aug2025 00:24:36.663] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=32, y=67, z=63}
+[01Aug2025 00:24:36.796] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=32, y=66, z=62}
+[01Aug2025 00:24:37.695] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=32, y=67, z=63}
+[01Aug2025 00:24:54.298] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=32, y=67, z=63}
+[01Aug2025 00:24:56.492] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: titiiiixd lost connection: Disconnected
+[01Aug2025 00:24:56.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd left the game
+[01Aug2025 00:25:07.605] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: titiiiixd[/127.120.157.170:53325] logged in with entity id 33493 at (33.527827903383155, 67.0, 62.03546117413895)
+[01Aug2025 00:25:07.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd joined the game
+[01Aug2025 00:25:17.360] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=32, y=67, z=63}
+[01Aug2025 00:25:18.052] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=32, y=68, z=63}
+[01Aug2025 00:25:20.551] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=32, y=68, z=63}
+[01Aug2025 00:25:20.892] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=32, y=68, z=63}
+[01Aug2025 00:25:22.845] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=33, y=66, z=58}
+[01Aug2025 00:25:23.013] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=33, y=66, z=58}
+[01Aug2025 00:25:23.063] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=33, y=66, z=58}
+[01Aug2025 00:25:23.998] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=34, y=66, z=64}
+[01Aug2025 00:25:24.044] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=35, y=66, z=63}
+[01Aug2025 00:25:24.295] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=36, y=66, z=63}
+[01Aug2025 00:26:30.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [World of illusion]
+[01Aug2025 00:27:50.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd fell from a high place
+[01Aug2025 00:27:57.704] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=48, y=65, z=57}
+[01Aug2025 00:30:55.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd hit the ground too hard
+[01Aug2025 00:34:36.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Sweet Dreams]
+[01Aug2025 00:35:04.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Sweet Dreams]
+[01Aug2025 00:35:25.643] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-460, y=81, z=299} BlockPos{x=-460, y=81, z=298}
+[01Aug2025 00:35:55.631] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: titiiiixd lost connection: Disconnected
+[01Aug2025 00:35:55.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd left the game
+[01Aug2025 00:41:08.339] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: titiiiixd[/127.120.157.170:50061] logged in with entity id 45402 at (-440.5677833923596, 70.0, 311.0271781609832)
+[01Aug2025 00:41:08.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd joined the game
+[01Aug2025 00:41:23.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> ???
+[01Aug2025 00:41:26.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <titiiiixd> quiere llamad nomas
+[01Aug2025 00:41:28.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <titiiiixd> el pendejo
+[01Aug2025 00:41:30.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> :V
+[01Aug2025 00:41:34.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> asi q chiste
+[01Aug2025 00:41:35.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <titiiiixd> estos amigos de ahora..
+[01Aug2025 00:41:58.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> llamame alli pues
+[01Aug2025 00:42:00.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> pa viciar como es
+[01Aug2025 00:42:18.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <titiiiixd> espera a ver si cambia de opinion este pendejo
+[01Aug2025 00:42:28.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> bruh
+[01Aug2025 00:50:28.067] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/45468, l='ServerLevel[world]', x=-403.30, y=82.75, z=362.75] died, message: 'Nitwit was slain by Zombie'
+[01Aug2025 00:59:25.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> -348 253
+[01Aug2025 00:59:57.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [We Need to Go Deeper]
+[01Aug2025 00:59:59.468] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5354ms or 107 ticks behind
+[01Aug2025 01:00:42.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Nightmare Fuel]
+[01Aug2025 01:02:18.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Frightening Rush]
+[01Aug2025 01:02:58.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has reached the goal [Non-renewable? Yeah, right..]
+[01Aug2025 01:07:11.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Spectator Mode]
+[01Aug2025 01:07:21.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Rattling Remnants]
+[01Aug2025 01:09:04.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 01:09:08.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [A Terrible Fortress]
+[01Aug2025 01:09:31.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Stare Into Despair]
+[01Aug2025 01:09:31.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [The Beginning of An Adventure]
+[01Aug2025 01:12:52.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Sneak 100]
+[01Aug2025 01:14:43.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Spectator Mode]
+[01Aug2025 01:15:36.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 01:15:59.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Spectator Mode]
+[01Aug2025 01:16:32.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 01:16:36.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [Those Were the Days]
+[01Aug2025 01:17:26.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd was killed by Witch using magic
+[01Aug2025 01:17:43.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [War Pigs]
+[01Aug2025 01:19:35.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Spectator Mode]
+[01Aug2025 01:19:40.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 01:19:43.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has made the advancement [It Belongs in a Museum]
+[01Aug2025 01:19:55.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Spectator Mode]
+[01Aug2025 01:20:12.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 01:20:22.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Spectator Mode]
+[01Aug2025 01:20:50.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 01:21:09.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Spectator Mode]
+[01Aug2025 01:21:20.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 01:22:01.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Spectator Mode]
+[01Aug2025 01:22:16.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd was shot by Skeleton
+[01Aug2025 01:22:58.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd fell from a high place
+[01Aug2025 01:23:03.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BloodSoss has completed the challenge [Hot Tourist Destinations]
+[01Aug2025 01:23:50.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 01:23:55.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [Convergent Evolution...]
+[01Aug2025 01:26:30.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Spectator Mode]
+[01Aug2025 01:26:57.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
+[01Aug2025 01:27:51.903] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chiguagua[/127.56.19.246:47301] logged in with entity id 73412 at (79.27537230348192, 0.0, 56.339161505324064)
+[01Aug2025 01:27:51.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chiguagua joined the game
+[01Aug2025 01:27:58.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> CHeee
+[01Aug2025 01:27:59.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> q onda
+[01Aug2025 01:28:02.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Chiguagua> buenas
+[01Aug2025 01:28:13.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Chiguagua> me estoy cocinando unas mila
+[01Aug2025 01:28:17.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Chiguagua> por eso tarde
+[01Aug2025 01:28:19.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> que ricoooo
+[01Aug2025 01:28:28.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Chiguagua> las tengo q tantear igual para q no se me quemen
+[01Aug2025 01:28:35.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Chiguagua> estoy en una cueva jaja
+[01Aug2025 01:28:38.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> rela rela
+[01Aug2025 01:28:38.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Chiguagua> no se donde ir
+[01Aug2025 01:28:45.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> decime tus coords
+[01Aug2025 01:28:53.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Chiguagua> dale
+[01Aug2025 01:28:57.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Chiguagua> banca q salgo a la sup
+[01Aug2025 01:29:07.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BloodSoss> va
+[01Aug2025 01:29:39.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Chiguagua> a es de noche .-.
+[01Aug2025 01:29:40.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd was shot by Skeleton
+[01Aug2025 01:30:05.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Chiguagua> 52 83
+[01Aug2025 01:30:07.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Survival Mode]
+[01Aug2025 01:30:08.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Aug2025 01:30:08.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Aug2025 01:30:08.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Aug2025 01:30:09.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01Aug2025 01:30:10.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[01Aug2025 01:30:10.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[01Aug2025 01:30:10.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mofus_better_end_:broken_constellation
+[01Aug2025 01:30:10.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01Aug2025 01:30:10.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01Aug2025 01:30:10.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Aug2025 01:30:10.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[01Aug2025 01:30:10.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[01Aug2025 01:30:10.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (broken_constellation): All chunks are saved
+[01Aug2025 01:30:10.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Aug2025 01:30:10.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Aug2025 01:30:10.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
