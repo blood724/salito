@@ -2589,6 +2589,12 @@
     },
     "done": true
   },
+  "friendsandfoes:adventure/it_bites": {
+    "criteria": {
+      "killed_mauler": "2025-08-02 00:38:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/mangrove_chest_boat": {
     "criteria": {
       "has_boat": "2025-08-02 00:31:43 +0000"
