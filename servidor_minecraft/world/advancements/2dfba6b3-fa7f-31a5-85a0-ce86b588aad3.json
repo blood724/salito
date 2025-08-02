@@ -265,6 +265,7 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2025-08-01 00:36:53 +0000",
       "minecraft:taiga": "2025-07-31 20:11:56 +0000",
+      "minecraft:frozen_river": "2025-08-02 05:34:49 +0000",
       "minecraft:birch_forest": "2025-08-01 01:42:05 +0000",
       "minecraft:windswept_hills": "2025-08-01 04:04:51 +0000",
       "minecraft:beach": "2025-08-01 04:02:35 +0000",
@@ -275,6 +276,7 @@
       "minecraft:forest": "2025-07-31 20:12:14 +0000",
       "minecraft:lush_caves": "2025-07-31 21:11:05 +0000",
       "minecraft:deep_cold_ocean": "2025-08-01 04:07:24 +0000",
+      "minecraft:frozen_ocean": "2025-08-02 05:34:43 +0000",
       "minecraft:ocean": "2025-08-01 04:07:35 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-08-01 00:32:51 +0000",
       "minecraft:windswept_savanna": "2025-08-02 03:44:15 +0000",
@@ -3801,24 +3803,6 @@
     },
     "done": false
   },
-  "minecraft:recipes/redstone/crimson_button": {
-    "criteria": {
-      "has_planks": "2025-08-02 05:24:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/crimson_slab": {
-    "criteria": {
-      "has_planks": "2025-08-02 05:24:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/crimson_stairs": {
-    "criteria": {
-      "has_planks": "2025-08-02 05:24:15 +0000"
-    },
-    "done": true
-  },
   "dungeons_arise:find_illager_corsair_or_illager_galley": {
     "criteria": {
       "location0": "2025-08-02 05:23:53 +0000"
@@ -3831,33 +3815,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/crimson_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-08-02 05:24:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crimson_sign": {
-    "criteria": {
-      "has_planks": "2025-08-02 05:24:15 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/jungle_button": {
     "criteria": {
       "has_planks": "2025-08-02 05:24:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/crimson_door": {
-    "criteria": {
-      "has_planks": "2025-08-02 05:24:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/crimson_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-08-02 05:24:15 +0000"
     },
     "done": true
   },
@@ -3891,12 +3851,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crimson_fence": {
-    "criteria": {
-      "has_planks": "2025-08-02 05:24:15 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/jungle_fence": {
     "criteria": {
       "has_planks": "2025-08-02 05:24:12 +0000"
@@ -3909,15 +3863,63 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/crimson_fence_gate": {
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2025-08-02 05:24:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_button": {
     "criteria": {
       "has_planks": "2025-08-02 05:24:15 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/jungle_slab": {
+  "minecraft:recipes/building_blocks/crimson_slab": {
     "criteria": {
-      "has_planks": "2025-08-02 05:24:12 +0000"
+      "has_planks": "2025-08-02 05:24:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2025-08-02 05:24:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-08-02 05:24:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2025-08-02 05:24:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2025-08-02 05:24:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-08-02 05:24:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2025-08-02 05:24:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-08-02 05:24:15 +0000"
     },
     "done": true
   },
