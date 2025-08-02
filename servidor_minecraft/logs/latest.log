@@ -1,2 +1,4 @@
 [02Aug2025 00:16:19.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [BloodSoss: Set own game mode to Creative Mode]
 [02Aug2025 00:38:52.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: titiiiixd has made the advancement [It Bites]
+[02Aug2025 01:02:45.577] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['aldeano'/60001, l='ServerLevel[world]', x=-142.30, y=85.00, z=-206.30] died, message: 'aldeano was slain by BloodSoss'
+[02Aug2025 01:02:45.579] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['aldeano'/60001, l='ServerLevel[world]', x=-142.30, y=85.00, z=-206.30] died: aldeano was slain by BloodSoss
