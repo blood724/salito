@@ -2882,5 +2882,11 @@
     },
     "done": true
   },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2025-08-03 22:48:32 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
