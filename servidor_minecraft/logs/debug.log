@@ -1727,3 +1727,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [06Aug2025 15:13:34.010] [Server thread/DEBUG] [mixin/]: Mixing NaturalSpawnerMixin from alexscaves.mixins.json into net.minecraft.world.level.NaturalSpawner
 [06Aug2025 15:18:34.006] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [06Aug2025 15:18:34.026] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Aug2025 15:23:33.922] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Aug2025 15:23:33.974] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Aug2025 15:28:33.908] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Aug2025 15:28:33.922] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
